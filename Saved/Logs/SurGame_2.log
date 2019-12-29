@@ -1,0 +1,935 @@
+﻿Log file open, 12/26/19 19:02:15
+LogInit:Display: Running engine for game: SurGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-115252650) SRandInit(-115252650).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.133546
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal  -epicusername="enriquead98" -epicuserid=35863c99d82a4ed4b51773c0fa1f7d15 -epiclocale=es-ES
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.12.26-18.02.17:862][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.26-18.02.17:862][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.26-18.02.17:909][  0]LogInit: Computer: LAPTOP-DM9AJJCC
+[2019.12.26-18.02.17:909][  0]LogInit: User: Enrique
+[2019.12.26-18.02.17:909][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.12.26-18.02.17:909][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.26-18.02.17:909][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.12.26-18.02.17:909][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.26-18.02.17:909][  0]LogMemory: Process Physical Memory: 273.06 MB used, 273.06 MB peak
+[2019.12.26-18.02.17:909][  0]LogMemory: Process Virtual Memory: 266.56 MB used, 266.56 MB peak
+[2019.12.26-18.02.17:909][  0]LogMemory: Physical Memory: 5305.77 MB used,  2792.14 MB free, 8097.91 MB total
+[2019.12.26-18.02.17:909][  0]LogMemory: Virtual Memory: 4761.38 MB used,  2792.14 MB free, 134217728.00 MB total
+[2019.12.26-18.02.19:151][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.12.26-18.02.19:151][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.12.26-18.02.30:528][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.26-18.02.30:602][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2019.12.26-18.02.30:602][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.12.26-18.02.30:669][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.26-18.02.30:669][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.26-18.02.30:669][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.26-18.02.30:677][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.26-18.02.30:677][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.26-18.02.30:677][  0]LogWindows: EnumDisplayDevices:
+[2019.12.26-18.02.30:677][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2019.12.26-18.02.30:678][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.12.26-18.02.30:678][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.12.26-18.02.30:678][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.26-18.02.30:678][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2019.12.26-18.02.30:678][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.26-18.02.30:678][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.26-18.02.30:678][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.12.26-18.02.30:713][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.26-18.02.30:763][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2019.12.26-18.02.30:779][  0]LogShaderCompilers: Guid format shader working directory is -67 characters bigger than the processId version (../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Intermediate/Shaders/WorkingDirectory/6172/).
+[2019.12.26-18.02.30:779][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/0779928A4117D2686980F5B3A03C3797/'.
+[2019.12.26-18.02.30:779][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.12.26-18.02.35:889][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.12.26-18.02.36:071][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.12.26-18.02.36:271][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.12.26-18.02.36:445][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.12.26-18.02.36:636][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.12.26-18.02.36:804][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.12.26-18.02.36:961][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.12.26-18.02.37:116][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.12.26-18.02.37:345][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.12.26-18.02.37:525][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.12.26-18.02.37:680][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.12.26-18.02.37:839][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.12.26-18.02.37:999][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.12.26-18.02.38:156][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.12.26-18.02.38:307][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.12.26-18.02.38:660][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.12.26-18.02.38:660][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.12.26-18.02.38:823][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.12.26-18.02.39:186][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.12.26-18.02.39:297][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.12.26-18.02.39:515][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.12.26-18.02.39:734][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.12.26-18.02.39:965][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.12.26-18.02.40:220][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.12.26-18.02.40:220][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.12.26-18.02.43:836][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.12.26-18.02.47:422][  0]LogDerivedDataCache: Loaded boot cache 3.57s 90MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2019.12.26-18.02.47:422][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Enrique/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2019.12.26-18.02.47:422][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.26-18.02.47:422][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.26-18.02.47:422][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.26-18.02.47:422][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.26-18.02.47:503][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.26-18.02.47:518][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.26-18.02.47:542][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.26-18.02.47:542][  0]LogSlate: Using Freetype 2.6.0
+[2019.12.26-18.02.47:587][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.26-18.02.47:587][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.26-18.03.04:533][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.26-18.03.04:895][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.12.26-18.03.05:893][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.26-18.03.06:099][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.12.26-18.03.06:308][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.12.26-18.03.06:308][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.12.26-18.03.06:308][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.12.26-18.03.09:856][  0]LogNetVersion: SurGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 675150492)
+[2019.12.26-18.03.10:233][  0]LogAssetRegistry: FAssetRegistry took 0.0312 seconds to start up
+[2019.12.26-18.03.10:416][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.077510 seconds
+[2019.12.26-18.03.10:422][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2019.12.26-18.03.10:422][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2019.12.26-18.03.10:422][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.26-18.03.10:712][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.12.26-18.03.54:060][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.26-18.03.54:207][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.26-18.03.59:386][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.12.26-18.04.01:422][  0]SourceControl: Info Source control is disabled
+[2019.12.26-18.04.02:209][  0]SourceControl: Info Source control is disabled
+[2019.12.26-18.04.02:510][  0]SourceControl: Info Source control is disabled
+[2019.12.26-18.04.02:735][  0]SourceControl: Info Source control is disabled
+[2019.12.26-18.04.07:124][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.26-18.04.10:694][  0]LogEngine: Initializing Engine...
+[2019.12.26-18.04.10:695][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.26-18.04.11:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.12.26-18.04.11:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.12.26-18.04.12:446][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.26-18.04.12:500][  0]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.04.12:990][  0]LogInit: FAudioDevice initialized.
+[2019.12.26-18.04.13:069][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2019.12.26-18.04.13:088][  0]LogInit: Texture streaming: Enabled
+[2019.12.26-18.04.14:312][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.26-18.04.16:839][  0]LogInit: Transaction tracking system initialized
+[2019.12.26-18.04.18:802][  0]BlueprintLog: New page: Editor Load
+[2019.12.26-18.04.24:555][  0]LocalizationService: Info Localization service is disabled
+[2019.12.26-18.04.28:512][  0]LogConsoleResponse:Display: 
+[2019.12.26-18.04.30:102][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.26-18.04.30:102][  0]LogCook:Display: Mobile HDR setting 1
+[2019.12.26-18.04.30:984][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/' took 0.07s
+[2019.12.26-18.04.40:308][  0]SourceControl: Info Source control is disabled
+[2019.12.26-18.04.40:309][  0]LightingResults: New page: Lighting Build
+[2019.12.26-18.04.40:501][  0]MapCheck: New page: Map Check
+[2019.12.26-18.04.40:501][  0]LightingResults: New page: Lighting Build
+[2019.12.26-18.04.42:381][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.26-18.04.42:411][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.26-18.04.42:442][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.26-18.04.42:564][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.705ms to complete.
+[2019.12.26-18.04.42:564][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.257
+[2019.12.26-18.04.43:132][  0]LogCollectionManager: Loaded 0 collections in 0.004277 seconds
+[2019.12.26-18.04.43:331][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Collections/' took 0.01s
+[2019.12.26-18.04.43:331][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Developers/Enrique/Collections/' took 0.01s
+[2019.12.26-18.04.43:331][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Collections/' took 0.01s
+[2019.12.26-18.04.43:331][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.12.26-18.04.43:344][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2329 classes and 491 folders.
+[2019.12.26-18.04.43:580][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.12.26-18.04.45:949][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.12.26-18.04.46:102][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.12.26-18.04.46:247][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.12.26-18.04.46:276][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.26-18.04.46:298][  0]LogSlate: Took 0.018485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.26-18.04.46:315][  0]LogSlate: Took 0.010463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.26-18.04.46:498][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:1).
+[2019.12.26-18.04.46:954][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.12.26-18.04.47:196][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.12.26-18.04.47:196][  0]LogLoad: (Engine Initialization) Total time: 153.91 seconds
+[2019.12.26-18.04.47:196][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.47 seconds
+[2019.12.26-18.04.47:197][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.12.26-18.04.47:537][  0]LogOcInput: OculusInput pre-init called
+[2019.12.26-18.04.47:537][  0]LogHMD: Starting GearVRController plugin
+[2019.12.26-18.04.47:555][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.26-18.04.47:640][  0]LogSlate: Took 0.018525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.12.26-18.04.47:886][  1]LogAssetRegistry: Asset discovery search completed in 97.6750 seconds
+[2019.12.26-18.04.47:901][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.12.26-18.04.47:901][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.011009 seconds (updated 0 objects)
+[2019.12.26-18.04.48:539][  3]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.12.26-18.05.50:643][299]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.12.26-18.05.50:969][299]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.05.51:057][299]Cmd: MAP LOAD FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.26-18.05.51:057][299]LightingResults: New page: Lighting Build
+[2019.12.26-18.05.51:058][299]LoadErrors: New page: Loading map: Level2.umap
+[2019.12.26-18.05.51:069][299]MapCheck: New page: Map Check
+[2019.12.26-18.05.51:069][299]LightingResults: New page: Lighting Build
+[2019.12.26-18.05.51:125][299]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.26-18.05.51:167][299]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.26-18.05.51:276][299]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.777ms to complete.
+[2019.12.26-18.05.51:277][299]LogFileHelpers: Loading map 'Level2' took 0.221
+[2019.12.26-18.05.52:980][331]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2019.12.26-18.05.53:708][331]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.26-18.06.35:750][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Jugador_C_1' or package '/Engine/Transient'.
+[2019.12.26-18.06.35:750][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2019.12.26-18.06.35:750][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2019.12.26-18.06.35:750][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Jugador_C_0' or package '/Engine/Transient'.
+[2019.12.26-18.06.35:750][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Jugador_C_32' or package '/Engine/Transient'.
+[2019.12.26-18.06.35:750][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Jugador_C_31' or package '/Engine/Transient'.
+[2019.12.26-18.06.46:712][519]LogRenderer: Reallocating scene render targets to support 856x588 NumSamples 1 (Frame:1).
+[2019.12.26-18.06.49:739][567]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.26-18.11.08:173][601]BlueprintLog: New page: Compile Jugador
+[2019.12.26-18.11.08:929][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset" SILENT=true
+[2019.12.26-18.11.08:965][607]LogSavePackage: Save=33.59ms
+[2019.12.26-18.11.08:965][607]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Jugador082520AA4D83C39A67A1B0BE32304BE0.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset'
+[2019.12.26-18.11.08:972][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset
+[2019.12.26-18.11.35:321][132]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-18.11.43:399][374]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.11.43:544][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-18.11.43:545][374]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:11:43 PM)
+[2019.12.26-18.11.43:545][374]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.11.43:563][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018171s)
+[2019.12.26-18.11.43:565][374]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.11.43:565][374]LogPlayLevel: PIE: World Init took: (0.001441s)
+[2019.12.26-18.11.43:565][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.019976s)
+[2019.12.26-18.11.43:655][374]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.11.43:685][374]LogInit: FAudioDevice initialized.
+[2019.12.26-18.11.43:730][374]LogLoad: Game class is 'GameModeBase'
+[2019.12.26-18.11.43:736][374]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.11.43
+[2019.12.26-18.11.43:881][374]LogWorld: Bringing up level for play took: 0.149511
+[2019.12.26-18.11.44:058][374]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2019.12.26-18.11.44:059][374]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 1.425
+[2019.12.26-18.12.03:190][975]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-18.12.05:042][ 17]LogEditorViewport: Clicking on Actor (LMB): Jugador_C (Jugador)
+[2019.12.26-18.12.34:664][261]Cmd: DELETE
+[2019.12.26-18.12.34:664][261]Cmd: ACTOR DELETE
+[2019.12.26-18.12.34:665][261]LogEditorActor: Deleted Actor: Jugador_C
+[2019.12.26-18.12.34:744][261]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2019.12.26-18.12.51:118][481]Cmd: DELETE
+[2019.12.26-18.12.51:118][481]Cmd: ACTOR DELETE
+[2019.12.26-18.12.51:119][481]LogEditorActor: Deleted Actor: PlayerStart
+[2019.12.26-18.12.51:163][481]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2019.12.26-18.13.58:273][493]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.26-18.14.18:663][938]BlueprintLog: New page: Compile ModoSupervivencia
+[2019.12.26-18.14.19:161][946]LogSavePackage: Save=13.64ms
+[2019.12.26-18.14.19:161][946]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/ModoSupervivencia3871412F4555CEB4DE12608A1C9862B2.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/ModoSupervivencia.uasset'
+[2019.12.26-18.14.19:169][946]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/ModoSupervivencia.uasset
+[2019.12.26-18.14.21:599][  9]LogSavePackage: Save=405.09ms
+[2019.12.26-18.14.21:599][  9]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2E73D7139499AC8025B399A93A3F6DDB9.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap'
+[2019.12.26-18.14.21:609][  9]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap
+[2019.12.26-18.14.21:924][  9]LogSavePackage: Save=249.75ms
+[2019.12.26-18.14.21:924][  9]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_BuiltDataEC9AD5FD4364B47C2535CB8DE88CBCBC.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset'
+[2019.12.26-18.14.21:929][  9]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset
+[2019.12.26-18.14.25:222][ 69]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.12.26-18.14.25:664][ 83]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SurGame
+[2019.12.26-18.14.25:664][ 83]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2019.12.26-18.14.25:664][ 83]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2019.12.26-18.14.25:664][ 83]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2019.12.26-18.14.25:674][ 83]LogTemp: BranchPath = LAPTOP-DM9AJJCC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LAPTOP-DM9AJJCC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2019.12.26-18.14.25:729][ 85]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.12.26-18.14.32:570][293]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.26-18.15.00:104][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-18.15.00:104][833]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:15:00 PM)
+[2019.12.26-18.15.00:104][833]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.15.00:123][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018311s)
+[2019.12.26-18.15.00:123][833]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.15.00:124][833]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2019.12.26-18.15.00:124][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.019718s)
+[2019.12.26-18.15.00:183][833]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.15.00:209][833]LogInit: FAudioDevice initialized.
+[2019.12.26-18.15.00:246][833]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.15.00:252][833]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.15.00
+[2019.12.26-18.15.00:253][833]LogWorld: Bringing up level for play took: 0.005543
+[2019.12.26-18.15.00:299][833]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 -0.335
+[2019.12.26-18.15.52:463][956]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-18.16.04:106][303]Cmd: SELECT NONE
+[2019.12.26-18.18.34:834][933]LogSlate: Took 0.000505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.26-18.18.56:289][144]LogEditorTransaction: Undo Move Node
+[2019.12.26-18.18.57:267][250]LogEditorTransaction: Undo Add Node
+[2019.12.26-18.19.52:935][513]LogEditorTransaction: Undo Move Node
+[2019.12.26-18.19.53:623][582]LogEditorTransaction: Undo Add Node
+[2019.12.26-18.19.59:353][221]LogEditorTransaction: Undo Add Node
+[2019.12.26-18.20.28:198][664]BlueprintLog: New page: Compile Jugador
+[2019.12.26-18.20.28:743][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset" SILENT=true
+[2019.12.26-18.20.28:828][665]LogSavePackage: Save=73.76ms
+[2019.12.26-18.20.28:828][665]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Jugador3A45F9D243579101619687BE8054543F.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset'
+[2019.12.26-18.20.28:834][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset
+[2019.12.26-18.20.30:779][893]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.20.30:807][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-18.20.30:807][893]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:20:30 PM)
+[2019.12.26-18.20.30:807][893]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.20.30:828][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020825s)
+[2019.12.26-18.20.30:829][893]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.20.30:829][893]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2019.12.26-18.20.30:829][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.022311s)
+[2019.12.26-18.20.30:884][893]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.20.30:911][893]LogInit: FAudioDevice initialized.
+[2019.12.26-18.20.31:001][893]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.20.31:007][893]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.20.31
+[2019.12.26-18.20.31:007][893]LogWorld: Bringing up level for play took: 0.006038
+[2019.12.26-18.20.31:021][893]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.386
+[2019.12.26-18.20.31:216][893]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2019.12.26-18.23.10:756][614]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.23.10:781][614]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.26-18.23.10:781][614]LogPlayLevel: [PlayLevel] Compiling Jugador before play...
+[2019.12.26-18.23.10:953][614]LogPlayLevel: PlayLevel: Blueprint regeneration took 172 ms (1 blueprints)
+[2019.12.26-18.23.10:953][614]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:23:10 PM)
+[2019.12.26-18.23.10:953][614]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.23.10:969][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015898s)
+[2019.12.26-18.23.10:970][614]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.23.10:970][614]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2019.12.26-18.23.10:970][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.017190s)
+[2019.12.26-18.23.11:011][614]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.23.11:035][614]LogInit: FAudioDevice initialized.
+[2019.12.26-18.23.11:090][614]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.23.11:097][614]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.23.11
+[2019.12.26-18.23.11:098][614]LogWorld: Bringing up level for play took: 0.006940
+[2019.12.26-18.23.11:103][614]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.469
+[2019.12.26-18.24.28:262][217]BlueprintLog: New page: Compile Jugador
+[2019.12.26-18.24.28:809][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset" SILENT=true
+[2019.12.26-18.24.28:869][247]LogSavePackage: Save=50.62ms
+[2019.12.26-18.24.28:869][247]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Jugador0136CB7C419AE603E12E5BA2D221671D.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset'
+[2019.12.26-18.24.28:876][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset
+[2019.12.26-18.24.29:477][315]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.24.29:505][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-18.24.29:505][315]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:24:29 PM)
+[2019.12.26-18.24.29:506][315]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.24.29:522][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016210s)
+[2019.12.26-18.24.29:523][315]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.24.29:523][315]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2019.12.26-18.24.29:523][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.017536s)
+[2019.12.26-18.24.29:565][315]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.24.29:587][315]LogInit: FAudioDevice initialized.
+[2019.12.26-18.24.29:629][315]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.24.29:634][315]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.24.29
+[2019.12.26-18.24.29:634][315]LogWorld: Bringing up level for play took: 0.005205
+[2019.12.26-18.24.29:639][315]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 1.004
+[2019.12.26-18.25.14:861][103]BlueprintLog: New page: Compile Jugador
+[2019.12.26-18.25.15:597][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset" SILENT=true
+[2019.12.26-18.25.15:681][117]LogSavePackage: Save=73.24ms
+[2019.12.26-18.25.15:681][117]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/JugadorA1AAEAC7469739B34966DBA810436F1F.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset'
+[2019.12.26-18.25.15:691][117]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset
+[2019.12.26-18.25.16:440][145]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.25.16:484][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-18.25.16:484][145]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:25:16 PM)
+[2019.12.26-18.25.16:484][145]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.25.16:505][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020493s)
+[2019.12.26-18.25.16:506][145]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.25.16:506][145]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2019.12.26-18.25.16:507][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.022205s)
+[2019.12.26-18.25.16:558][145]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.25.16:584][145]LogInit: FAudioDevice initialized.
+[2019.12.26-18.25.16:629][145]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.25.16:635][145]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.25.16
+[2019.12.26-18.25.16:636][145]LogWorld: Bringing up level for play took: 0.005651
+[2019.12.26-18.25.16:643][145]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.008
+[2019.12.26-18.25.48:371][597]LogSavePackage: Save=408.21ms
+[2019.12.26-18.25.48:371][597]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level23C5657084C28AF2A4B151DACAC52C647.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap'
+[2019.12.26-18.25.48:382][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap
+[2019.12.26-18.25.48:697][597]LogSavePackage: Save=250.43ms
+[2019.12.26-18.25.48:697][597]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_BuiltData6E35B8F84755DE096584EE8785F19EE6.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset'
+[2019.12.26-18.25.48:702][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset
+[2019.12.26-18.26.21:528][ 66]LogSavePackage: Save=398.72ms
+[2019.12.26-18.26.21:528][ 66]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2A4394CBC4712D160C85B66A29127308A.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap'
+[2019.12.26-18.26.21:537][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap
+[2019.12.26-18.26.21:856][ 66]LogSavePackage: Save=258.18ms
+[2019.12.26-18.26.21:856][ 66]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_BuiltData708B71ED4CAB533F06ED2DA29EA8B674.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset'
+[2019.12.26-18.26.21:860][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset
+[2019.12.26-18.29.39:874][167]LogSavePackage: Save=40.92ms
+[2019.12.26-18.29.39:874][167]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Tree_FBX330D74DC4F5B0220185EC6BE56BFAF6A.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/cha_unity/Arboles/Tree_FBX.uasset'
+[2019.12.26-18.29.39:912][167]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/cha_unity/Arboles/Tree_FBX.uasset
+[2019.12.26-18.29.43:620][272]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.29.43:660][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-18.29.43:660][272]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:29:43 PM)
+[2019.12.26-18.29.43:660][272]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.29.43:683][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022633s)
+[2019.12.26-18.29.43:685][272]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.29.43:686][272]LogPlayLevel: PIE: World Init took: (0.002620s)
+[2019.12.26-18.29.43:686][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.025724s)
+[2019.12.26-18.29.43:750][272]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.29.43:778][272]LogInit: FAudioDevice initialized.
+[2019.12.26-18.29.43:817][272]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.29.43:859][272]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.29.43
+[2019.12.26-18.29.43:859][272]LogWorld: Bringing up level for play took: 0.041554
+[2019.12.26-18.29.43:863][272]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 -0.772
+[2019.12.26-18.32.04:976][395]LogMaterial: Missing cached shader map for material chest_text_Mat, compiling. 
+[2019.12.26-18.32.23:353][640]BlueprintLog: New page: Compile Recolectable
+[2019.12.26-18.32.23:966][641]LogSavePackage: Save=34.78ms
+[2019.12.26-18.32.23:966][641]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Recolectable1CE27B09400B646BB5436D9C21A05FAF.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Recolectable.uasset'
+[2019.12.26-18.32.23:974][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Recolectable.uasset
+[2019.12.26-18.33.01:387][408]LogSavePackage: Save=422.19ms
+[2019.12.26-18.33.01:387][408]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level27847654D4F47D975039228867B41DC49.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap'
+[2019.12.26-18.33.01:399][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap
+[2019.12.26-18.33.01:739][408]LogSavePackage: Save=276.26ms
+[2019.12.26-18.33.01:740][408]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_BuiltData5047FB2642E860AA1F0E2EA996E94188.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset'
+[2019.12.26-18.33.01:744][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset
+[2019.12.26-18.33.06:951][448]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.33.07:008][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-18.33.07:009][448]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:33:07 PM)
+[2019.12.26-18.33.07:009][448]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.33.07:031][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022337s)
+[2019.12.26-18.33.07:032][448]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.33.07:032][448]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2019.12.26-18.33.07:033][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.023946s)
+[2019.12.26-18.33.07:090][448]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.33.07:116][448]LogInit: FAudioDevice initialized.
+[2019.12.26-18.33.07:149][448]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.33.07:154][448]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.33.07
+[2019.12.26-18.33.07:155][448]LogWorld: Bringing up level for play took: 0.005578
+[2019.12.26-18.33.07:158][448]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.524
+[2019.12.26-18.35.43:731][693]BlueprintLog: New page: Compile Recolectable
+[2019.12.26-18.35.44:321][693]LogSavePackage: Save=34.82ms
+[2019.12.26-18.35.44:321][693]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Recolectable203A78364DEAA53B10C998977E3FB716.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Recolectable.uasset'
+[2019.12.26-18.35.44:331][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Recolectable.uasset
+[2019.12.26-18.35.45:377][807]LogSavePackage: Save=21.37ms
+[2019.12.26-18.35.45:377][807]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/RecolectableE45C98E948E1CD8C51A941BB1689DD4D.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Recolectable.uasset'
+[2019.12.26-18.35.45:380][807]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Recolectable.uasset
+[2019.12.26-18.35.48:209][ 12]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.35.48:253][ 12]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.26-18.35.48:253][ 12]LogPlayLevel: [PlayLevel] Compiling Jugador before play...
+[2019.12.26-18.35.48:495][ 12]LogPlayLevel: PlayLevel: Blueprint regeneration took 241 ms (1 blueprints)
+[2019.12.26-18.35.48:495][ 12]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:35:48 PM)
+[2019.12.26-18.35.48:495][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.35.48:520][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025578s)
+[2019.12.26-18.35.48:521][ 12]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.35.48:521][ 12]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2019.12.26-18.35.48:521][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.027160s)
+[2019.12.26-18.35.48:572][ 12]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.35.48:645][ 12]LogInit: FAudioDevice initialized.
+[2019.12.26-18.35.48:679][ 12]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.35.48:685][ 12]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.35.48
+[2019.12.26-18.35.48:686][ 12]LogWorld: Bringing up level for play took: 0.005764
+[2019.12.26-18.35.48:689][ 12]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.054
+[2019.12.26-18.38.51:059][383]BlueprintLog: New page: Compile Recolectable
+[2019.12.26-18.38.51:684][383]LogSavePackage: Save=65.56ms
+[2019.12.26-18.38.51:684][383]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Recolectable48A3F08B40DD2FDD43DBF39C08B0EFE6.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Recolectable.uasset'
+[2019.12.26-18.38.51:691][383]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Recolectable.uasset
+[2019.12.26-18.38.53:615][441]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.38.53:657][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-18.38.53:657][441]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:38:53 PM)
+[2019.12.26-18.38.53:658][441]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.38.53:682][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024015s)
+[2019.12.26-18.38.53:683][441]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.38.53:684][441]LogPlayLevel: PIE: World Init took: (0.001759s)
+[2019.12.26-18.38.53:684][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.026268s)
+[2019.12.26-18.38.53:735][441]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.38.53:762][441]LogInit: FAudioDevice initialized.
+[2019.12.26-18.38.53:797][441]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.38.53:802][441]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.38.53
+[2019.12.26-18.38.53:837][441]LogWorld: Bringing up level for play took: 0.039479
+[2019.12.26-18.38.53:840][441]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 -0.795
+[2019.12.26-18.38.56:896][543]LogBlueprintUserMessages: [Recolectable_185] Overlap
+[2019.12.26-18.38.58:768][619]LogBlueprintUserMessages: [Recolectable2_302] Overlap
+[2019.12.26-18.38.59:991][677]LogBlueprintUserMessages: [Recolectable2_302] Overlap
+[2019.12.26-18.39.02:596][801]LogBlueprintUserMessages: [Recolectable2_302] Overlap
+[2019.12.26-18.42.30:255][356]LogMetaData: Removing '/Game/Enemigo+.Enemigo+:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemig.PackageMetaData'
+[2019.12.26-18.42.30:255][356]LogMetaData: Removing '/Game/Enemigo+.SKEL_Enemigo+_C' ref from Metadata '/Game/Enemig.PackageMetaData'
+[2019.12.26-18.42.30:255][356]LogMetaData: Removing '/Game/Enemigo+.Enemigo+_C' ref from Metadata '/Game/Enemig.PackageMetaData'
+[2019.12.26-18.42.30:255][356]LogMetaData: Removing '/Game/Enemigo+.Enemigo+:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemig.PackageMetaData'
+[2019.12.26-18.42.30:255][356]LogMetaData: Removing '/Game/Enemigo+.Enemigo+:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemig.PackageMetaData'
+[2019.12.26-18.42.30:255][356]LogMetaData: Removing '/Game/Enemigo+.Enemigo+:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Enemig.PackageMetaData'
+[2019.12.26-18.42.30:293][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigo+" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo+.uasset" SILENT=true
+[2019.12.26-18.42.30:325][356]LogSavePackage: Save=27.66ms
+[2019.12.26-18.42.30:325][356]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Enemigo+DAE736944050B69A122F01AE9F044B71.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo+.uasset'
+[2019.12.26-18.42.30:335][356]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo+.uasset
+[2019.12.26-18.42.37:171][515]LogMetaData: Removing '/Game/Enemigo.Enemigo_C' ref from Metadata '/Game/Enemigo+.PackageMetaData'
+[2019.12.26-18.42.37:171][515]LogMetaData: Removing '/Game/Enemigo.SKEL_Enemigo_C' ref from Metadata '/Game/Enemigo+.PackageMetaData'
+[2019.12.26-18.42.37:171][515]LogMetaData: Removing '/Game/Enemigo.Enemigo:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemigo+.PackageMetaData'
+[2019.12.26-18.42.37:171][515]LogMetaData: Removing '/Game/Enemigo.Enemigo:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemigo+.PackageMetaData'
+[2019.12.26-18.42.37:171][515]LogMetaData: Removing '/Game/Enemigo.Enemigo:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemigo+.PackageMetaData'
+[2019.12.26-18.42.37:171][515]LogMetaData: Removing '/Game/Enemigo.Enemigo:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Enemigo+.PackageMetaData'
+[2019.12.26-18.42.37:194][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigo" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset" SILENT=true
+[2019.12.26-18.42.37:231][515]LogSavePackage: Save=33.08ms
+[2019.12.26-18.42.37:231][515]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/EnemigoD52E386C4172E022DA9589B02EC6F85E.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset'
+[2019.12.26-18.42.37:241][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset
+[2019.12.26-18.42.53:878][771]LogTexture:Display: Building textures: Vampire_diffuse (AutoDXT, 2048X2048)
+[2019.12.26-18.43.01:471][771]LogTexture:Display: Building textures: Vampire_masks (AutoDXT, 2048X2048)
+[2019.12.26-18.43.04:870][771]LogTexture:Display: Building textures: Vampire_normal (BC5, 2048X2048)
+[2019.12.26-18.43.05:832][771]LogTexture:Display: Building textures: Vampire_emission (AutoDXT, 512X512)
+[2019.12.26-18.43.05:944][771]LogMaterial: Missing cached shader map for material Vamp_Mat, compiling. 
+[2019.12.26-18.43.06:049][771]LogMaterial: Missing cached shader map for material Vamp_alpha_Mat, compiling. 
+[2019.12.26-18.43.58:194][265]LogEditorTransaction: Undo Add Node
+[2019.12.26-18.44.53:534][459]LogSavePackage: Save=585.15ms
+[2019.12.26-18.44.53:534][459]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_Auto15EF0C4CE42318B0422809B93C47DF8CE.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Level2_Auto1.umap'
+[2019.12.26-18.44.53:569][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Level2_Auto1.umap
+[2019.12.26-18.44.53:576][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level2' took 0.745
+[2019.12.26-18.44.53:576][459]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.745
+[2019.12.26-18.44.53:598][459]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jugador] ([1] browsable assets)...
+[2019.12.26-18.44.53:643][459]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Jugador.Jugador]
+[2019.12.26-18.44.53:643][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jugador]
+[2019.12.26-18.44.53:727][459]LogSavePackage: Save=69.73ms
+[2019.12.26-18.44.53:727][459]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Jugador_Auto1552F88F340632E468985979854171A6A.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Jugador_Auto1.uasset'
+[2019.12.26-18.44.53:731][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Jugador_Auto1.uasset
+[2019.12.26-18.44.53:733][459]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemigo] ([1] browsable assets)...
+[2019.12.26-18.44.53:777][459]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemigo.Enemigo]
+[2019.12.26-18.44.53:777][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemigo]
+[2019.12.26-18.44.53:848][459]LogSavePackage: Save=54.14ms
+[2019.12.26-18.44.53:848][459]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Enemigo_Auto1620E790D4598AC2574B099A48B9B8C2D.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Enemigo_Auto1.uasset'
+[2019.12.26-18.44.53:852][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Enemigo_Auto1.uasset
+[2019.12.26-18.44.53:852][459]LogFileHelpers: Auto-saving content packages took 0.262
+[2019.12.26-18.46.59:791][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigo" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset" SILENT=true
+[2019.12.26-18.46.59:856][949]LogSavePackage: Save=50.20ms
+[2019.12.26-18.46.59:856][949]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/EnemigoCAC91D99463FC6CF268E0482194F492C.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset'
+[2019.12.26-18.46.59:865][949]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset
+[2019.12.26-18.47.00:462][ 11]BlueprintLog: New page: Compile Enemigo
+[2019.12.26-18.48.52:837][185]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-18.48.53:656][201]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-18.48.54:406][216]LogEditorViewport: Clicking on Actor (LMB): Recolectable_C (Recolectable)
+[2019.12.26-18.49.33:369][981]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.49.33:425][981]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.26-18.49.33:425][981]LogPlayLevel: [PlayLevel] Compiling Jugador before play...
+[2019.12.26-18.49.33:627][981]LogPlayLevel: PlayLevel: Blueprint regeneration took 202 ms (1 blueprints)
+[2019.12.26-18.49.33:627][981]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:49:33 PM)
+[2019.12.26-18.49.33:627][981]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.49.33:648][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021135s)
+[2019.12.26-18.49.33:650][981]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.49.33:650][981]LogPlayLevel: PIE: World Init took: (0.001311s)
+[2019.12.26-18.49.33:650][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.022733s)
+[2019.12.26-18.49.33:696][981]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.49.33:720][981]LogInit: FAudioDevice initialized.
+[2019.12.26-18.49.33:754][981]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.49.33:760][981]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.49.33
+[2019.12.26-18.49.33:762][981]LogWorld: Bringing up level for play took: 0.007230
+[2019.12.26-18.49.33:789][981]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 1.154
+[2019.12.26-18.53.25:775][492]LogEditorTransaction: Undo Add Node
+[2019.12.26-18.54.33:460][529]BlueprintLog: New page: Compile Enemigo
+[2019.12.26-18.54.33:485][529]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Level2.Level2:PersistentLevel.Enemigo_2.CollisionCylinder is already used by CapsuleComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.12.26-18.54.33:485][529]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Level2.Level2:PersistentLevel.Enemigo_2.Arrow is already used by ArrowComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.12.26-18.54.33:485][529]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Level2.Level2:PersistentLevel.Enemigo_2.CharMoveComp is already used by CharacterMovementComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.12.26-18.54.33:485][529]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Level2.Level2:PersistentLevel.Enemigo_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.12.26-18.54.33:488][529]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Level2.Level2:PersistentLevel.Enemigo2_5.CollisionCylinder is already used by CapsuleComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.12.26-18.54.33:488][529]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Level2.Level2:PersistentLevel.Enemigo2_5.Arrow is already used by ArrowComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.12.26-18.54.33:488][529]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Level2.Level2:PersistentLevel.Enemigo2_5.CharMoveComp is already used by CharacterMovementComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.12.26-18.54.33:489][529]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Level2.Level2:PersistentLevel.Enemigo2_5.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Level2.Level2:PersistentLevel.REINST_Enemigo_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.12.26-18.54.34:198][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigo" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset" SILENT=true
+[2019.12.26-18.54.34:265][529]LogSavePackage: Save=54.11ms
+[2019.12.26-18.54.34:265][529]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Enemigo5ADFBA98431C1EED106E5CA446D94432.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset'
+[2019.12.26-18.54.34:273][529]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset
+[2019.12.26-18.54.34:940][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigo" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset" SILENT=true
+[2019.12.26-18.54.34:992][548]LogSavePackage: Save=42.98ms
+[2019.12.26-18.54.34:992][548]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Enemigo3A6B3F544D190BAD4806DF9C3F33C20B.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset'
+[2019.12.26-18.54.34:995][548]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset
+[2019.12.26-18.54.36:112][675]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.54.36:139][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-18.54.36:139][675]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:54:36 PM)
+[2019.12.26-18.54.36:139][675]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.54.36:168][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028718s)
+[2019.12.26-18.54.36:169][675]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.54.36:170][675]LogPlayLevel: PIE: World Init took: (0.001960s)
+[2019.12.26-18.54.36:170][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.030971s)
+[2019.12.26-18.54.36:221][675]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.54.36:248][675]LogInit: FAudioDevice initialized.
+[2019.12.26-18.54.36:294][675]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.54.36:302][675]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.54.36
+[2019.12.26-18.54.36:303][675]LogWorld: Bringing up level for play took: 0.009410
+[2019.12.26-18.54.36:308][675]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 -0.326
+[2019.12.26-18.55.43:095][656]LogSavePackage: Save=395.59ms
+[2019.12.26-18.55.43:095][656]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_Auto2716A61F8449F9C3BA694A1A13E8271A3.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Level2_Auto2.umap'
+[2019.12.26-18.55.43:100][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Level2_Auto2.umap
+[2019.12.26-18.55.43:104][656]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level2' took 0.476
+[2019.12.26-18.55.43:104][656]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.476
+[2019.12.26-18.55.43:109][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jugador] ([1] browsable assets)...
+[2019.12.26-18.55.43:190][656]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Jugador.Jugador]
+[2019.12.26-18.55.43:190][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jugador]
+[2019.12.26-18.55.43:258][656]LogSavePackage: Save=55.53ms
+[2019.12.26-18.55.43:258][656]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Jugador_Auto2A18239DA40458B12E96A1593808CE252.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Jugador_Auto2.uasset'
+[2019.12.26-18.55.43:261][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Jugador_Auto2.uasset
+[2019.12.26-18.55.43:261][656]LogFileHelpers: Auto-saving content packages took 0.156
+[2019.12.26-18.55.49:216][116]LogSavePackage: Save=449.13ms
+[2019.12.26-18.55.49:216][116]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level28365577442D565F44E54279183906C0E.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap'
+[2019.12.26-18.55.49:227][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap
+[2019.12.26-18.55.49:537][116]LogSavePackage: Save=247.36ms
+[2019.12.26-18.55.49:537][116]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_BuiltData6412EB35455D3FE5D81DB696A830187A.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset'
+[2019.12.26-18.55.49:542][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset
+[2019.12.26-18.55.50:311][143]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.55.50:361][143]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.26-18.55.50:361][143]LogPlayLevel: [PlayLevel] Compiling Enemigo before play...
+[2019.12.26-18.55.50:655][143]LogPlayLevel: PlayLevel: Blueprint regeneration took 294 ms (1 blueprints)
+[2019.12.26-18.55.50:655][143]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:55:50 PM)
+[2019.12.26-18.55.50:655][143]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.55.50:682][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026311s)
+[2019.12.26-18.55.50:683][143]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.55.50:683][143]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2019.12.26-18.55.50:684][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.027660s)
+[2019.12.26-18.55.50:745][143]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.55.50:773][143]LogInit: FAudioDevice initialized.
+[2019.12.26-18.55.50:811][143]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.55.50:818][143]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.55.50
+[2019.12.26-18.55.50:819][143]LogWorld: Bringing up level for play took: 0.007335
+[2019.12.26-18.55.50:821][143]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.187
+[2019.12.26-18.56.29:972][897]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.56.30:005][897]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.26-18.56.30:005][897]LogPlayLevel: [PlayLevel] Compiling Enemigo before play...
+[2019.12.26-18.56.30:289][897]LogPlayLevel: PlayLevel: Blueprint regeneration took 283 ms (1 blueprints)
+[2019.12.26-18.56.30:290][897]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:56:30 PM)
+[2019.12.26-18.56.30:290][897]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.56.30:322][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031918s)
+[2019.12.26-18.56.30:323][897]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.56.30:323][897]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2019.12.26-18.56.30:323][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.033365s)
+[2019.12.26-18.56.30:382][897]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.56.30:409][897]LogInit: FAudioDevice initialized.
+[2019.12.26-18.56.30:461][897]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.56.30:476][897]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.56.30
+[2019.12.26-18.56.30:477][897]LogWorld: Bringing up level for play took: 0.015195
+[2019.12.26-18.56.30:484][897]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 -0.151
+[2019.12.26-18.56.42:747][127]LogBlueprintUserMessages: [Recolectable_185] Overlap
+[2019.12.26-18.57.00:982][922]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-18.57.01:011][922]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.26-18.57.01:011][922]LogPlayLevel: [PlayLevel] Compiling Enemigo before play...
+[2019.12.26-18.57.01:303][922]LogPlayLevel: PlayLevel: Blueprint regeneration took 292 ms (1 blueprints)
+[2019.12.26-18.57.01:303][922]PIE: New page: PIE session: Level2 (Dec 26, 2019, 8:57:01 PM)
+[2019.12.26-18.57.01:303][922]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-18.57.01:333][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029261s)
+[2019.12.26-18.57.01:334][922]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-18.57.01:334][922]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2019.12.26-18.57.01:334][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.030652s)
+[2019.12.26-18.57.01:384][922]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-18.57.01:410][922]LogInit: FAudioDevice initialized.
+[2019.12.26-18.57.01:461][922]LogLoad: Game class is 'ModoSupervivencia_C'
+[2019.12.26-18.57.01:470][922]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2019.12.26-19.57.01
+[2019.12.26-18.57.01:471][922]LogWorld: Bringing up level for play took: 0.008845
+[2019.12.26-18.57.01:478][922]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.843
+[2019.12.26-18.58.17:769][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemigo" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset" SILENT=true
+[2019.12.26-18.58.17:840][618]LogSavePackage: Save=58.72ms
+[2019.12.26-18.58.17:840][618]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Enemigo64781FCD4DB4A994E766CC99D4CC0365.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset'
+[2019.12.26-18.58.17:953][618]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Enemigo.uasset
+[2019.12.26-18.58.18:834][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset" SILENT=true
+[2019.12.26-18.58.18:896][712]LogSavePackage: Save=48.66ms
+[2019.12.26-18.58.18:896][712]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Jugador1FD7F4564966FEEE1B83DB9758F611D6.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset'
+[2019.12.26-18.58.18:904][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset
+[2019.12.26-18.58.47:875][656]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.26-18.58.48:009][656]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.26-18.58.48:109][656]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.26-18.58.48:488][657]Cmd: QUIT_EDITOR
+[2019.12.26-18.58.49:827][657]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.12.26-18.58.49:891][657]LogExit: Preparing to exit.
+[2019.12.26-18.58.51:453][657]LogDirectoryWatcher: A directory notification for 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/' was aborted.
+[2019.12.26-18.58.51:745][657]LogExit: Editor shut down
+[2019.12.26-18.58.51:827][657]LogExit: Transaction tracking system shut down
+[2019.12.26-18.58.55:904][657]LogObj: Freed 0b from 0 cluster array pools.
+[2019.12.26-18.58.55:905][657]LogExit: Object subsystem successfully closed.
+[2019.12.26-18.58.56:420][657]LogD3D11RHI: Shutdown
+[2019.12.26-18.58.56:420][657]LogD3D11RHI: CleanupD3DDevice
+[2019.12.26-18.58.57:445][657]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.12.26-18.58.59:023][657]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (536)
+[2019.12.26-18.58.59:023][657]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (534)
+[2019.12.26-18.58.59:023][657]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2019.12.26-18.58.59:024][657]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2019.12.26-18.58.59:024][657]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2019.12.26-18.58.59:024][657]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2019.12.26-18.58.59:086][657]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2019.12.26-18.58.59:099][657]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2019.12.26-18.58.59:099][657]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2019.12.26-18.58.59:099][657]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2019.12.26-18.58.59:182][657]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2019.12.26-18.58.59:201][657]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2019.12.26-18.58.59:201][657]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2019.12.26-18.58.59:201][657]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2019.12.26-18.58.59:202][657]LogDirectoryWatcher: A directory notification for 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Collections/' was aborted.
+[2019.12.26-18.58.59:202][657]LogDirectoryWatcher: A directory notification for 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Developers/Enrique/Collections/' was aborted.
+[2019.12.26-18.58.59:202][657]LogDirectoryWatcher: A directory notification for 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Collections/' was aborted.
+[2019.12.26-18.58.59:202][657]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2019.12.26-18.58.59:253][657]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2019.12.26-18.58.59:253][657]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2019.12.26-18.58.59:357][657]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2019.12.26-18.58.59:357][657]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2019.12.26-18.58.59:357][657]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2019.12.26-18.58.59:357][657]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2019.12.26-18.58.59:357][657]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2019.12.26-18.58.59:357][657]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2019.12.26-18.58.59:372][657]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2019.12.26-18.58.59:380][657]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2019.12.26-18.58.59:407][657]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2019.12.26-18.58.59:427][657]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2019.12.26-18.58.59:452][657]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2019.12.26-18.58.59:847][657]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2019.12.26-18.58.59:847][657]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2019.12.26-18.58.59:847][657]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2019.12.26-18.58.59:847][657]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2019.12.26-18.58.59:847][657]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2019.12.26-18.58.59:847][657]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2019.12.26-18.58.59:865][657]LogModuleManager: Shutting down and abandoning module Media (471)
+[2019.12.26-18.58.59:865][657]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2019.12.26-18.58.59:865][657]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2019.12.26-18.58.59:865][657]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2019.12.26-18.58.59:891][657]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2019.12.26-18.58.59:967][657]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2019.12.26-18.59.00:036][657]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2019.12.26-18.59.00:036][657]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2019.12.26-18.59.00:036][657]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2019.12.26-18.59.00:036][657]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2019.12.26-18.59.00:290][657]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2019.12.26-18.59.00:388][657]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2019.12.26-18.59.00:520][657]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2019.12.26-18.59.00:598][657]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2019.12.26-18.59.00:598][657]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2019.12.26-18.59.00:598][657]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2019.12.26-18.59.00:598][657]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2019.12.26-18.59.00:598][657]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2019.12.26-18.59.01:382][657]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2019.12.26-18.59.01:382][657]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2019.12.26-18.59.01:382][657]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2019.12.26-18.59.01:401][657]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2019.12.26-18.59.01:426][657]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2019.12.26-18.59.01:426][657]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2019.12.26-18.59.01:479][657]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2019.12.26-18.59.01:492][657]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2019.12.26-18.59.01:615][657]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2019.12.26-18.59.01:638][657]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2019.12.26-18.59.01:638][657]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2019.12.26-18.59.01:672][657]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2019.12.26-18.59.01:697][657]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2019.12.26-18.59.01:697][657]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2019.12.26-18.59.01:736][657]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2019.12.26-18.59.01:756][657]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2019.12.26-18.59.01:756][657]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2019.12.26-18.59.01:757][657]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2019.12.26-18.59.01:757][657]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2019.12.26-18.59.01:757][657]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2019.12.26-18.59.01:815][657]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2019.12.26-18.59.01:831][657]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2019.12.26-18.59.01:903][657]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2019.12.26-18.59.01:938][657]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2019.12.26-18.59.02:005][657]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2019.12.26-18.59.02:068][657]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2019.12.26-18.59.02:173][657]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2019.12.26-18.59.02:322][657]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2019.12.26-18.59.02:322][657]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2019.12.26-18.59.02:341][657]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2019.12.26-18.59.02:366][657]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2019.12.26-18.59.02:514][657]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2019.12.26-18.59.02:514][657]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2019.12.26-18.59.02:514][657]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2019.12.26-18.59.02:611][657]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2019.12.26-18.59.02:614][657]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2019.12.26-18.59.02:661][657]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2019.12.26-18.59.02:711][657]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2019.12.26-18.59.02:816][657]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2019.12.26-18.59.02:888][657]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2019.12.26-18.59.02:908][657]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2019.12.26-18.59.02:911][657]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2019.12.26-18.59.02:911][657]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2019.12.26-18.59.02:911][657]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2019.12.26-18.59.02:911][657]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2019.12.26-18.59.03:166][657]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2019.12.26-18.59.03:166][657]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2019.12.26-18.59.03:166][657]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2019.12.26-18.59.03:166][657]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2019.12.26-18.59.03:166][657]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2019.12.26-18.59.03:166][657]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2019.12.26-18.59.03:166][657]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2019.12.26-18.59.03:166][657]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2019.12.26-18.59.03:180][657]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2019.12.26-18.59.03:277][657]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2019.12.26-18.59.03:322][657]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2019.12.26-18.59.03:322][657]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2019.12.26-18.59.03:322][657]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2019.12.26-18.59.03:352][657]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2019.12.26-18.59.03:380][657]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2019.12.26-18.59.03:380][657]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2019.12.26-18.59.03:380][657]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2019.12.26-18.59.03:380][657]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2019.12.26-18.59.03:380][657]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2019.12.26-18.59.03:421][657]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2019.12.26-18.59.03:421][657]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2019.12.26-18.59.03:421][657]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2019.12.26-18.59.03:548][657]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2019.12.26-18.59.03:548][657]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2019.12.26-18.59.03:570][657]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2019.12.26-18.59.03:570][657]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2019.12.26-18.59.03:599][657]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2019.12.26-18.59.03:599][657]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2019.12.26-18.59.03:599][657]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2019.12.26-18.59.03:599][657]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2019.12.26-18.59.03:599][657]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2019.12.26-18.59.03:675][657]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2019.12.26-18.59.03:749][657]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2019.12.26-18.59.03:749][657]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2019.12.26-18.59.03:749][657]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2019.12.26-18.59.03:750][657]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2019.12.26-18.59.04:136][657]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2019.12.26-18.59.04:461][657]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2019.12.26-18.59.04:910][657]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2019.12.26-18.59.05:442][657]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2019.12.26-18.59.05:442][657]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2019.12.26-18.59.05:442][657]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2019.12.26-18.59.05:442][657]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2019.12.26-18.59.05:643][657]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2019.12.26-18.59.05:734][657]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.12.26-18.59.05:878][657]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.12.26-18.59.06:003][657]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2019.12.26-18.59.06:031][657]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2019.12.26-18.59.06:075][657]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2019.12.26-18.59.06:119][657]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2019.12.26-18.59.06:120][657]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2019.12.26-18.59.06:120][657]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2019.12.26-18.59.06:120][657]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2019.12.26-18.59.06:147][657]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2019.12.26-18.59.06:248][657]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2019.12.26-18.59.06:349][657]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2019.12.26-18.59.06:522][657]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2019.12.26-18.59.06:535][657]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2019.12.26-18.59.06:535][657]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2019.12.26-18.59.06:563][657]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2019.12.26-18.59.06:563][657]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2019.12.26-18.59.06:568][657]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2019.12.26-18.59.06:568][657]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2019.12.26-18.59.06:615][657]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2019.12.26-18.59.06:615][657]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2019.12.26-18.59.06:646][657]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2019.12.26-18.59.06:720][657]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2019.12.26-18.59.06:751][657]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2019.12.26-18.59.06:751][657]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2019.12.26-18.59.06:751][657]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2019.12.26-18.59.06:813][657]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2019.12.26-18.59.06:865][657]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2019.12.26-18.59.06:865][657]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2019.12.26-18.59.07:134][657]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2019.12.26-18.59.07:134][657]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2019.12.26-18.59.07:207][657]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2019.12.26-18.59.07:215][657]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2019.12.26-18.59.07:424][657]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2019.12.26-18.59.07:608][657]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2019.12.26-18.59.07:791][657]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2019.12.26-18.59.07:791][657]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2019.12.26-18.59.07:791][657]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2019.12.26-18.59.08:000][657]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2019.12.26-18.59.08:000][657]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2019.12.26-18.59.08:079][657]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2019.12.26-18.59.08:079][657]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2019.12.26-18.59.08:079][657]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2019.12.26-18.59.08:079][657]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2019.12.26-18.59.08:079][657]LogModuleManager: Shutting down and abandoning module Core (164)
+[2019.12.26-18.59.08:079][657]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2019.12.26-18.59.08:337][657]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.12.26-18.59.08:337][657]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/' was aborted.
+[2019.12.26-18.59.08:338][657]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.12.26-18.59.08:338][657]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2019.12.26-18.59.08:351][657]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2019.12.26-18.59.08:358][657]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2019.12.26-18.59.08:358][657]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2019.12.26-18.59.08:358][657]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2019.12.26-18.59.08:358][657]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2019.12.26-18.59.08:459][657]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2019.12.26-18.59.08:497][657]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2019.12.26-18.59.08:497][657]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2019.12.26-18.59.08:518][657]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2019.12.26-18.59.08:546][657]LogDerivedDataCache: Shutdown
+[2019.12.26-18.59.08:546][657]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2019.12.26-18.59.08:546][657]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2019.12.26-18.59.08:588][657]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2019.12.26-18.59.08:616][657]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2019.12.26-18.59.08:642][657]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2019.12.26-18.59.08:649][657]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2019.12.26-18.59.08:686][657]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2019.12.26-18.59.08:686][657]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2019.12.26-18.59.08:686][657]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2019.12.26-18.59.08:686][657]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2019.12.26-18.59.08:757][657]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2019.12.26-18.59.08:764][657]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2019.12.26-18.59.08:764][657]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2019.12.26-18.59.08:764][657]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2019.12.26-18.59.08:765][657]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2019.12.26-18.59.08:785][657]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2019.12.26-18.59.08:837][657]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2019.12.26-18.59.08:837][657]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2019.12.26-18.59.08:864][657]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2019.12.26-18.59.08:903][657]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2019.12.26-18.59.08:909][657]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2019.12.26-18.59.08:937][657]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2019.12.26-18.59.08:937][657]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2019.12.26-18.59.08:961][657]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2019.12.26-18.59.08:993][657]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2019.12.26-18.59.08:993][657]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2019.12.26-18.59.09:034][657]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2019.12.26-18.59.09:034][657]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.12.26-18.59.09:034][657]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.12.26-18.59.09:034][657]LogOnline:Display: Unloading online subsystem: NULL
+[2019.12.26-18.59.09:104][657]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.12.26-18.59.09:165][657]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.12.26-18.59.09:165][657]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.12.26-18.59.09:200][657]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B93D61187-4996-B18B-5982-F2AEFAD14316%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=2648461744d9e4173786d9bbb19d95a5%7C35863c99d82a4ed4b51773c0fa1f7d15%7Cc578b68e-8e52-4769-b554-e87fa8641c17&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.12.26-18.59.09:234][657]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.12.26-18.59.09:301][657]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2019.12.26-18.59.09:346][657]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2019.12.26-18.59.09:402][657]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2019.12.26-18.59.09:403][657]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2019.12.26-18.59.09:470][657]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2019.12.26-18.59.09:470][657]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2019.12.26-18.59.09:470][657]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2019.12.26-18.59.09:470][657]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2019.12.26-18.59.09:534][657]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2019.12.26-18.59.09:635][657]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2019.12.26-18.59.09:635][657]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2019.12.26-18.59.09:645][657]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2019.12.26-18.59.09:645][657]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2019.12.26-18.59.09:645][657]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2019.12.26-18.59.09:645][657]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2019.12.26-18.59.09:679][657]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.12.26-18.59.09:685][657]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.12.26-18.59.09:693][657]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.12.26-18.59.09:750][657]LogExit: Exiting.
+[2019.12.26-18.59.09:769][657]Log file closed, 12/26/19 19:59:09

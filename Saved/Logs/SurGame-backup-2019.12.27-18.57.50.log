@@ -1,0 +1,1009 @@
+﻿Log file open, 12/26/19 18:04:44
+LogInit:Display: Running engine for game: SurGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-279987356) SRandInit(-279987356).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.158561
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal  -epicusername="enriquead98" -epicuserid=35863c99d82a4ed4b51773c0fa1f7d15 -epiclocale=es-ES
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.12.26-17.04.45:500][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.26-17.04.45:500][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.26-17.04.45:927][  0]LogInit: Computer: LAPTOP-DM9AJJCC
+[2019.12.26-17.04.45:927][  0]LogInit: User: Enrique
+[2019.12.26-17.04.45:927][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.12.26-17.04.45:927][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.26-17.04.45:927][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.12.26-17.04.45:927][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.26-17.04.45:927][  0]LogMemory: Process Physical Memory: 273.01 MB used, 273.01 MB peak
+[2019.12.26-17.04.45:927][  0]LogMemory: Process Virtual Memory: 266.63 MB used, 266.63 MB peak
+[2019.12.26-17.04.45:927][  0]LogMemory: Physical Memory: 4417.06 MB used,  3680.84 MB free, 8097.91 MB total
+[2019.12.26-17.04.45:927][  0]LogMemory: Virtual Memory: 4761.38 MB used,  3680.84 MB free, 134217728.00 MB total
+[2019.12.26-17.04.46:221][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.12.26-17.04.46:221][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.12.26-17.04.47:902][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.26-17.04.47:940][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2019.12.26-17.04.47:940][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.12.26-17.04.47:945][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.26-17.04.47:945][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.26-17.04.47:945][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.26-17.04.47:952][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.26-17.04.47:952][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.26-17.04.47:952][  0]LogWindows: EnumDisplayDevices:
+[2019.12.26-17.04.47:952][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2019.12.26-17.04.47:953][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.12.26-17.04.47:953][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.12.26-17.04.47:953][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.26-17.04.47:953][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2019.12.26-17.04.47:953][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.26-17.04.47:953][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.26-17.04.47:953][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.12.26-17.04.47:983][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.26-17.04.47:992][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2019.12.26-17.04.47:994][  0]LogShaderCompilers: Guid format shader working directory is -67 characters bigger than the processId version (../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Intermediate/Shaders/WorkingDirectory/6652/).
+[2019.12.26-17.04.47:995][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/1A8D3C22430157C30036789E6117ACBF/'.
+[2019.12.26-17.04.47:995][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.12.26-17.04.50:887][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.12.26-17.04.51:099][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.12.26-17.04.51:319][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.12.26-17.04.51:610][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.12.26-17.04.51:886][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.12.26-17.04.52:168][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.12.26-17.04.52:398][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.12.26-17.04.52:621][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.12.26-17.04.52:830][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.12.26-17.04.53:019][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.12.26-17.04.53:197][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.12.26-17.04.53:362][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.12.26-17.04.53:538][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.12.26-17.04.53:686][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.12.26-17.04.53:862][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.12.26-17.04.54:183][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.12.26-17.04.54:183][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.12.26-17.04.54:335][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.12.26-17.04.54:621][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.12.26-17.04.54:720][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.12.26-17.04.54:870][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.12.26-17.04.55:030][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.12.26-17.04.55:194][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.12.26-17.04.55:372][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.12.26-17.04.55:372][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.12.26-17.04.57:473][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.12.26-17.04.57:588][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2019.12.26-17.04.57:588][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Enrique/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2019.12.26-17.04.57:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.26-17.04.57:588][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.26-17.04.57:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.26-17.04.57:588][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.26-17.04.57:618][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.26-17.04.57:632][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.26-17.04.57:650][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.26-17.04.57:650][  0]LogSlate: Using Freetype 2.6.0
+[2019.12.26-17.04.57:651][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.26-17.04.57:651][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.26-17.04.58:258][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.26-17.04.58:355][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.12.26-17.04.58:766][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.26-17.04.58:912][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.12.26-17.04.59:084][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.12.26-17.04.59:084][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.12.26-17.04.59:084][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.12.26-17.05.00:750][  0]LogNetVersion: SurGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 675150492)
+[2019.12.26-17.05.00:953][  0]LogAssetRegistry: FAssetRegistry took 0.0327 seconds to start up
+[2019.12.26-17.05.01:114][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.052824 seconds
+[2019.12.26-17.05.01:125][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2019.12.26-17.05.01:125][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2019.12.26-17.05.01:125][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.26-17.05.01:487][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.12.26-17.05.10:346][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.26-17.05.10:527][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.26-17.05.12:817][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.12.26-17.05.14:900][  0]SourceControl: Info Source control is disabled
+[2019.12.26-17.05.15:430][  0]SourceControl: Info Source control is disabled
+[2019.12.26-17.05.15:708][  0]SourceControl: Info Source control is disabled
+[2019.12.26-17.05.15:984][  0]SourceControl: Info Source control is disabled
+[2019.12.26-17.05.19:299][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.26-17.05.21:342][  0]LogEngine: Initializing Engine...
+[2019.12.26-17.05.21:343][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.26-17.05.21:628][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.12.26-17.05.21:628][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.12.26-17.05.22:112][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.26-17.05.22:127][  0]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-17.05.22:208][  0]LogInit: FAudioDevice initialized.
+[2019.12.26-17.05.22:269][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2019.12.26-17.05.22:275][  0]LogInit: Texture streaming: Enabled
+[2019.12.26-17.05.22:678][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.26-17.05.23:438][  0]LogInit: Transaction tracking system initialized
+[2019.12.26-17.05.24:570][  0]BlueprintLog: New page: Editor Load
+[2019.12.26-17.05.27:891][  0]LocalizationService: Info Localization service is disabled
+[2019.12.26-17.05.30:209][  0]LogConsoleResponse:Display: 
+[2019.12.26-17.05.30:550][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.26-17.05.30:550][  0]LogCook:Display: Mobile HDR setting 1
+[2019.12.26-17.05.31:105][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/' took 0.05s
+[2019.12.26-17.05.34:102][  0]SourceControl: Info Source control is disabled
+[2019.12.26-17.05.34:103][  0]LightingResults: New page: Lighting Build
+[2019.12.26-17.05.34:242][  0]MapCheck: New page: Map Check
+[2019.12.26-17.05.34:242][  0]LightingResults: New page: Lighting Build
+[2019.12.26-17.05.34:748][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.12.26-17.05.34:759][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.26-17.05.34:801][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.26-17.05.34:942][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.853ms to complete.
+[2019.12.26-17.05.34:942][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.840
+[2019.12.26-17.05.35:201][  0]LogCollectionManager: Loaded 0 collections in 0.002881 seconds
+[2019.12.26-17.05.35:393][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Collections/' took 0.01s
+[2019.12.26-17.05.35:393][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Developers/Enrique/Collections/' took 0.01s
+[2019.12.26-17.05.35:393][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Collections/' took 0.01s
+[2019.12.26-17.05.35:393][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.12.26-17.05.35:404][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2329 classes and 491 folders.
+[2019.12.26-17.05.35:607][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.12.26-17.05.35:680][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.12.26-17.05.35:836][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.12.26-17.05.35:931][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.12.26-17.05.35:939][  0]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.26-17.05.35:942][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.26-17.05.35:949][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.26-17.05.36:077][  0]LogRenderer: Reallocating scene render targets to support 804x372 NumSamples 1 (Frame:1).
+[2019.12.26-17.05.36:283][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.12.26-17.05.36:477][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.12.26-17.05.36:478][  0]LogLoad: (Engine Initialization) Total time: 55.66 seconds
+[2019.12.26-17.05.36:478][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.32 seconds
+[2019.12.26-17.05.36:478][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.12.26-17.05.36:818][  0]LogOcInput: OculusInput pre-init called
+[2019.12.26-17.05.36:818][  0]LogHMD: Starting GearVRController plugin
+[2019.12.26-17.05.36:851][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.26-17.05.36:888][  0]LogSlate: Took 0.000479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.12.26-17.05.37:155][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/' took 0.32s
+[2019.12.26-17.05.37:821][  3]LogAssetRegistry: Asset discovery search completed in 36.8922 seconds
+[2019.12.26-17.05.37:824][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.12.26-17.05.37:824][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2019.12.26-17.05.40:407][ 10]LogSlate: Took 0.002027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.12.26-17.05.59:040][163]AssetReimport: New page: Outstanding source content changes 7:05:59 PM
+[2019.12.26-17.06.00:907][165]LogAudioEditor: Performing atomic reimport of [C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ambiente.wav]
+[2019.12.26-17.06.00:927][165]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ambiente.wav)
+[2019.12.26-17.06.01:074][165]LogAudioEditor: -- imported successfully
+[2019.12.26-17.06.01:195][166]LogAudioEditor: Performing atomic reimport of [C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ataque_enemigo.wav]
+[2019.12.26-17.06.01:196][166]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ataque_enemigo.wav)
+[2019.12.26-17.06.01:219][166]LogAudioEditor: -- imported successfully
+[2019.12.26-17.06.01:285][167]LogAudioEditor: Performing atomic reimport of [C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/explosion.wav]
+[2019.12.26-17.06.01:286][167]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/explosion.wav)
+[2019.12.26-17.06.01:291][167]LogAudioEditor: -- imported successfully
+[2019.12.26-17.06.01:385][168]LogAudioEditor: Performing atomic reimport of [C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/impacto_laser.wav]
+[2019.12.26-17.06.01:386][168]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/impacto_laser.wav)
+[2019.12.26-17.06.01:857][168]LogAudioEditor: -- imported successfully
+[2019.12.26-17.06.01:915][169]LogAudioEditor: Performing atomic reimport of [C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser.wav]
+[2019.12.26-17.06.01:917][169]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser.wav)
+[2019.12.26-17.06.01:922][169]LogAudioEditor: -- imported successfully
+[2019.12.26-17.06.01:994][170]LogAudioEditor: Performing atomic reimport of [C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser2.wav]
+[2019.12.26-17.06.01:995][170]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser2.wav)
+[2019.12.26-17.06.02:178][170]LogAudioEditor: -- imported successfully
+[2019.12.26-17.06.02:231][171]LogAudioEditor: Performing atomic reimport of [C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/machinegun.wav]
+[2019.12.26-17.06.02:232][171]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/machinegun.wav)
+[2019.12.26-17.06.02:313][171]LogAudioEditor: -- imported successfully
+[2019.12.26-17.06.02:375][172]LogAudioEditor: Performing atomic reimport of [C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/metal.wav]
+[2019.12.26-17.06.02:376][172]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/metal.wav)
+[2019.12.26-17.06.02:380][172]LogAudioEditor: -- imported successfully
+[2019.12.26-17.06.02:784][173]LogSlate: Took 0.000538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.12.26-17.06.02:822][173]LogAudioDerivedData:Display: Building compressed audio format OGG wave ambiente...
+[2019.12.26-17.06.04:054][173]LogSavePackage: Save=14.74ms
+[2019.12.26-17.06.04:054][173]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/ambiente2EA1C15E4F178EBE71D5F7825EC241CD.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ambiente.uasset'
+[2019.12.26-17.06.04:063][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ambiente.uasset
+[2019.12.26-17.06.04:069][173]LogAudioDerivedData:Display: Building compressed audio format OGG wave ataque_enemigo...
+[2019.12.26-17.06.04:122][173]LogSavePackage: Save=8.90ms
+[2019.12.26-17.06.04:122][173]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/ataque_enemigo54F044F14076CD298C538EA6E3C5BD64.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ataque_enemigo.uasset'
+[2019.12.26-17.06.04:130][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ataque_enemigo.uasset
+[2019.12.26-17.06.04:136][173]LogAudioDerivedData:Display: Building compressed audio format OGG wave explosion...
+[2019.12.26-17.06.04:229][173]LogSavePackage: Save=9.04ms
+[2019.12.26-17.06.04:229][173]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/explosion1154DDCB4CFD61876C7DB795A1B8A653.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/explosion.uasset'
+[2019.12.26-17.06.04:237][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/explosion.uasset
+[2019.12.26-17.06.04:243][173]LogAudioDerivedData:Display: Building compressed audio format OGG wave impacto_laser...
+[2019.12.26-17.06.04:339][173]LogSavePackage: Save=11.19ms
+[2019.12.26-17.06.04:339][173]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/impacto_laserC08BF4E6419DC499D756E28988130E41.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/impacto_laser.uasset'
+[2019.12.26-17.06.04:348][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/impacto_laser.uasset
+[2019.12.26-17.06.04:354][173]LogAudioDerivedData:Display: Building compressed audio format OGG wave laser...
+[2019.12.26-17.06.04:421][173]LogSavePackage: Save=9.01ms
+[2019.12.26-17.06.04:421][173]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/laser178CEB6F494920B11A2A8DB2C5BAA15A.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser.uasset'
+[2019.12.26-17.06.04:430][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser.uasset
+[2019.12.26-17.06.04:436][173]LogAudioDerivedData:Display: Building compressed audio format OGG wave laser2...
+[2019.12.26-17.06.04:523][173]LogSavePackage: Save=12.13ms
+[2019.12.26-17.06.04:523][173]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/laser25AE0BA884C962561B4B1CD826AFA9C28.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser2.uasset'
+[2019.12.26-17.06.04:531][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser2.uasset
+[2019.12.26-17.06.04:538][173]LogAudioDerivedData:Display: Building compressed audio format OGG wave machinegun...
+[2019.12.26-17.06.04:599][173]LogSavePackage: Save=9.25ms
+[2019.12.26-17.06.04:599][173]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/machinegunAADC56614399E0C001E8659BC7A154C8.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/machinegun.uasset'
+[2019.12.26-17.06.04:607][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/machinegun.uasset
+[2019.12.26-17.06.04:614][173]LogAudioDerivedData:Display: Building compressed audio format OGG wave metal...
+[2019.12.26-17.06.04:675][173]LogSavePackage: Save=10.66ms
+[2019.12.26-17.06.04:675][173]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/metal6AF59ABD445118BCA480FE9F5DB0ED2C.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/metal.uasset'
+[2019.12.26-17.06.04:683][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/metal.uasset
+[2019.12.26-17.06.07:992][246]AssetReimport: Info Reimported asset ambiente from C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ambiente.wav.
+[2019.12.26-17.06.07:992][246]AssetReimport: Info Reimported asset ataque_enemigo from C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/ataque_enemigo.wav.
+[2019.12.26-17.06.07:992][246]AssetReimport: Info Reimported asset explosion from C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/explosion.wav.
+[2019.12.26-17.06.07:992][246]AssetReimport: Info Reimported asset impacto_laser from C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/impacto_laser.wav.
+[2019.12.26-17.06.07:992][246]AssetReimport: Info Reimported asset laser from C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser.wav.
+[2019.12.26-17.06.07:992][246]AssetReimport: Info Reimported asset laser2 from C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/laser2.wav.
+[2019.12.26-17.06.07:992][246]AssetReimport: Info Reimported asset machinegun from C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/machinegun.wav.
+[2019.12.26-17.06.07:992][246]AssetReimport: Info Reimported asset metal from C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Sonidos/metal.wav.
+[2019.12.26-17.08.53:515][968]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.26-17.08.53:530][968]LightingResults: New page: Lighting Build
+[2019.12.26-17.08.53:531][968]LoadErrors: New page: Loading map: Template_Default.umap
+[2019.12.26-17.08.53:544][968]MapCheck: New page: Map Check
+[2019.12.26-17.08.53:544][968]LightingResults: New page: Lighting Build
+[2019.12.26-17.08.53:586][968]LogAIModule: Creating AISystem for world Untitled_1
+[2019.12.26-17.08.53:601][968]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.26-17.08.53:688][968]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.26-17.08.53:724][968]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.26-17.08.53:840][968]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.908ms to complete.
+[2019.12.26-17.08.53:840][968]LogFileHelpers: Loading map 'Template_Default' took 0.352
+[2019.12.26-17.09.05:976][171]LogSavePackage: Save=97.91ms
+[2019.12.26-17.09.05:976][171]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Nivel10ECD03914D6B70D97BD896A3BCA00EF1.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Nivel1.umap'
+[2019.12.26-17.09.05:979][171]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Nivel1.umap
+[2019.12.26-17.09.06:021][171]LogFileHelpers: Saving map 'Nivel1' took 1.973
+[2019.12.26-17.09.29:781][353]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.12.26-17.09.29:860][353]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2019.12.26-17.12.15:400][234]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.12.26-17.13.22:512][612]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.12.26-17.14.15:369][ 95]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.12.26-17.14.15:682][ 95]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2019.12.26-17.14.51:120][361]Cmd: TRANSACTION UNDO
+[2019.12.26-17.14.51:120][361]LogEditorTransaction: Undo Move Actors
+[2019.12.26-17.15.58:068][352]Cmd: DUPLICATE
+[2019.12.26-17.15.58:068][352]Cmd: ACTOR DUPLICATE
+[2019.12.26-17.16.25:275][299]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.12.26-17.17.01:122][ 50]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.12.26-17.17.05:167][155]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.12.26-17.18.13:056][822]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2019.12.26-17.19.03:751][161]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.12.26-17.19.38:184][294]LogSavePackage: Save=123.04ms
+[2019.12.26-17.19.38:184][294]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Nivel1_Auto148EE3DED4B82C0CD6495BEB83BF543F4.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Nivel1_Auto1.umap'
+[2019.12.26-17.19.38:188][294]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Nivel1_Auto1.umap
+[2019.12.26-17.19.38:191][294]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Nivel1' took 0.220
+[2019.12.26-17.19.38:191][294]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.220
+[2019.12.26-17.20.51:539][587]LogSavePackage: Save=113.45ms
+[2019.12.26-17.20.51:539][587]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Nivel1CF1E2C7A4C9D73413228C8B2E1CA05E0.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Nivel1.umap'
+[2019.12.26-17.20.51:547][587]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Nivel1.umap
+[2019.12.26-17.20.51:571][587]LogFileHelpers: Saving map 'Nivel1' took 0.289
+[2019.12.26-17.20.51:578][587]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.26-17.20.51:590][587]LightingResults: New page: Lighting Build
+[2019.12.26-17.20.51:591][587]LoadErrors: New page: Loading map: Template_Default.umap
+[2019.12.26-17.20.51:593][587]MapCheck: New page: Map Check
+[2019.12.26-17.20.51:593][587]LightingResults: New page: Lighting Build
+[2019.12.26-17.20.51:684][587]LogAIModule: Creating AISystem for world Untitled_2
+[2019.12.26-17.20.51:686][587]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_2.Untitled_2:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.26-17.20.51:691][587]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.26-17.20.51:729][587]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.26-17.20.51:851][587]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.219ms to complete.
+[2019.12.26-17.20.51:851][587]LogFileHelpers: Loading map 'Template_Default' took 0.276
+[2019.12.26-17.21.07:486][733]LogSavePackage: Save=64.73ms
+[2019.12.26-17.21.07:486][733]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level212738BF242AE40329D70F6A16B9B0C1B.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap'
+[2019.12.26-17.21.07:489][733]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap
+[2019.12.26-17.21.07:535][733]LogFileHelpers: Saving map 'Level2' took 0.428
+[2019.12.26-17.21.20:675][993]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.12.26-17.21.20:717][993]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2019.12.26-17.21.39:870][169]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2019.12.26-17.21.40:217][169]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.12.26-17.21.40:345][169]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.12.26-17.21.40:552][169]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.12.26-17.21.40:848][169]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2019.12.26-17.21.41:707][169]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.26-17.21.41:773][169]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.26-17.21.41:846][169]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.26-17.21.41:948][169]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.26-17.21.42:084][169]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2019.12.26-17.21.42:157][169]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.12.26-17.21.42:252][169]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.12.26-17.21.42:580][169]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2019.12.26-17.24.01:550][ 50]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.12.26-17.24.01:574][ 50]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2019.12.26-17.24.10:671][372]Cmd: TRANSACTION UNDO
+[2019.12.26-17.24.10:671][372]LogEditorTransaction: Undo Creating New Landscape
+[2019.12.26-17.24.16:809][562]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2019.12.26-17.24.24:187][776]MapCheck: New page: Map Check
+[2019.12.26-17.24.24:245][776]Cmd: MAP REBUILD ALLVISIBLE
+[2019.12.26-17.24.24:245][776]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.12.26-17.24.28:056][776]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2019.12.26-17.24.28:092][776]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2019.12.26-17.24.28:100][776]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2019.12.26-17.24.28:753][776]TextureStreamingBuild:Display: Compiling optional shaders took 0.744 seconds.
+[2019.12.26-17.24.29:073][776]LogLevel:Display: Export Material TexCoord Scales took 0.319 seconds.
+[2019.12.26-17.24.29:125][776]TextureStreamingBuild:Display: Build Texture Streaming took 0.053 seconds.
+[2019.12.26-17.24.29:212][776]LightingResults: New page: Lighting Build - Dec 26, 2019, 7:24:29 PM
+[2019.12.26-17.24.32:038][776]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.12.26-17.24.34:836][776]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.12.26-17.24.40:013][776]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.12.26-17.24.50:078][776]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2019.12.26-17.24.50:748][776]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:8008
+
+Server stack trace: 
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   en System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   en System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   en NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2019.12.26-17.24.59:756][776]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2019.12.26-17.24.59:756][776]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:8008
+
+Server stack trace: 
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   en System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   en System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   en NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2019.12.26-17.25.08:763][776]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2019.12.26-17.25.08:763][776]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:8008
+
+Server stack trace: 
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   en System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   en System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   en NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2019.12.26-17.25.17:770][776]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2019.12.26-17.25.17:770][776]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:8008
+
+Server stack trace: 
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   en System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   en System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   en NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2019.12.26-17.25.26:774][776]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2019.12.26-17.25.26:774][776]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:8008
+
+Server stack trace: 
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   en System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   en System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   en System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   en System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   en NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2019.12.26-17.25.34:136][776]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.12.26-17.25.34:136][776]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6652
+[2019.12.26-17.25.50:199][776]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.12.26-17.25.50:213][776]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.12.26-17.25.50:213][776]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.12.26-17.25.50:213][776]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.12.26-17.25.50:213][776]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.12.26-17.25.50:213][776]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.12.26-17.25.56:835][776]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.12.26-17.25.56:835][776]MapCheck: New page: Level2 - Dec 26, 2019, 7:25:56 PM
+[2019.12.26-17.25.56:873][776]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2019.12.26-17.25.57:048][776]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 212.504ms to complete.
+[2019.12.26-17.25.57:072][776]LogEditorBuildUtils: Build time 1:32
+[2019.12.26-17.25.57:230][776]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2019.12.26-17.25.57:260][776]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2019.12.26-17.25.57:647][777]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_66, compiling. 
+[2019.12.26-17.25.57:663][777]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_66, compiling. 
+[2019.12.26-17.26.00:117][841]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.12.26-17.26.00:141][841]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.12.26-17.27.00:830][ 94]Job is a success!
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 64X64)
+[2019.12.26-17.27.01:750][ 95]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 64X64)
+[2019.12.26-17.27.02:150][ 95]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X64)
+[2019.12.26-17.27.02:229][ 95]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X64)
+[2019.12.26-17.27.02:229][ 95]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X64)
+[2019.12.26-17.27.02:229][ 95]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X64)
+[2019.12.26-17.27.02:229][ 95]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X64)
+[2019.12.26-17.27.02:229][ 95]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2019.12.26-17.27.02:229][ 95]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
+[2019.12.26-17.27.04:601][ 95]Lightmass on LAPTOP-DM9AJJCC: 39.5 sec total, 3.85 sec importing, 1.16 sec setup, 3.36 sec photons, 30.8 sec processing, 0 ms extra exporting [65/65 mappings]. Threads: 2:03 min total, 1:22 min processing.
+[2019.12.26-17.27.04:688][ 95]LogStaticLightingSystem: Illumination: 2:35 min (201 ms encoding lightmaps, 477 ms encoding shadowmaps)
+[2019.12.26-17.27.04:688][ 95]LogStaticLightingSystem: Lightmap texture memory:  2.6 MB (2.6 MB streaming, 0.0 MB non-streaming), 14 textures
+[2019.12.26-17.27.04:688][ 95]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 7 textures
+[2019.12.26-17.27.05:780][ 95]DumpUnbuiltLightIteractions
+[2019.12.26-17.27.05:780][ 95]Lights with unbuilt interactions: 0
+[2019.12.26-17.27.05:780][ 95]
+[2019.12.26-17.27.05:780][ 95]Primitives with unbuilt interactions: 0
+[2019.12.26-17.27.05:856][ 96]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.12.26-17.27.05:856][ 96]MapCheck: New page: Level2 - Dec 26, 2019, 7:27:05 PM
+[2019.12.26-17.27.06:181][ 96]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 325.584ms to complete.
+[2019.12.26-17.29.36:634][507]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.12.26-17.31.00:005][ 19]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-17.31.00:090][ 19]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2019.12.26-17.31.00:446][ 25]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2019.12.26-17.31.00:692][ 25]LogSavePackage: Save=296.28ms
+[2019.12.26-17.31.00:692][ 25]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_Auto21063CBD749046D80010015A42E46E782.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Level2_Auto2.umap'
+[2019.12.26-17.31.00:696][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Level2_Auto2.umap
+[2019.12.26-17.31.00:700][ 25]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level2' took 0.343
+[2019.12.26-17.31.00:700][ 25]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.343
+[2019.12.26-17.31.00:703][ 25]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Level2_BuiltData] ([1] browsable assets)...
+[2019.12.26-17.31.00:703][ 25]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level2_BuiltData]
+[2019.12.26-17.31.00:817][ 25]LogSavePackage: Save=110.33ms
+[2019.12.26-17.31.00:817][ 25]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_BuiltData_Auto28EF10723445B8456156B31A0068F9B08.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Level2_BuiltData_Auto2.uasset'
+[2019.12.26-17.31.00:821][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Autosaves/Game/Level2_BuiltData_Auto2.uasset
+[2019.12.26-17.31.00:821][ 25]LogFileHelpers: Auto-saving content packages took 0.121
+[2019.12.26-17.31.01:511][ 50]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-17.31.01:574][ 50]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2019.12.26-17.31.04:270][137]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-17.31.20:992][618]LogStaticMesh: Building static mesh Tree_FBX...
+[2019.12.26-17.31.25:866][618]LogStaticMesh: Built static mesh [4.87s] /Game/cha_unity/Arboles/Tree_FBX.Tree_FBX
+[2019.12.26-17.31.28:364][618]LogMaterial: Missing cached shader map for material leaves, compiling. 
+[2019.12.26-17.31.28:403][618]LogMaterial: Missing cached shader map for material trunk, compiling. 
+[2019.12.26-17.31.29:132][625]LogActorFactory: Actor Factory created Tree_FBX
+[2019.12.26-17.31.31:279][660]LogActorFactory: Actor Factory created Tree_FBX
+[2019.12.26-17.32.25:862][916]LogSlate: Took 0.040891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.26-17.33.05:769][300]LogActorFactory: Actor Factory created Tree_FBX
+[2019.12.26-17.33.15:619][641]LogRenderer: Reallocating scene render targets to support 804x392 NumSamples 1 (Frame:7409).
+[2019.12.26-17.33.15:852][642]LogRenderer: Reallocating scene render targets to support 804x432 NumSamples 1 (Frame:7411).
+[2019.12.26-17.33.15:943][643]LogRenderer: Reallocating scene render targets to support 804x536 NumSamples 1 (Frame:7413).
+[2019.12.26-17.34.28:239][ 56]LogRenderer: Reallocating scene render targets to support 804x540 NumSamples 1 (Frame:8665).
+[2019.12.26-17.35.01:737][621]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2019.12.26-17.35.09:162][914]MapCheck: New page: Map Check
+[2019.12.26-17.35.09:178][914]Cmd: MAP REBUILD ALLVISIBLE
+[2019.12.26-17.35.09:180][914]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.12.26-17.35.09:233][914]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2019.12.26-17.35.09:243][914]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2019.12.26-17.35.09:251][914]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2019.12.26-17.35.09:259][914]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy trunk, compiling. 
+[2019.12.26-17.35.09:266][914]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy leaves, compiling. 
+[2019.12.26-17.35.10:245][914]TextureStreamingBuild:Display: Compiling optional shaders took 1.018 seconds.
+[2019.12.26-17.35.10:250][914]LogLevel:Display: Export Material TexCoord Scales took 0.005 seconds.
+[2019.12.26-17.35.10:263][914]TextureStreamingBuild:Display: Build Texture Streaming took 0.013 seconds.
+[2019.12.26-17.35.10:284][914]LightingResults: New page: Lighting Build - Dec 26, 2019, 7:35:10 PM
+[2019.12.26-17.35.10:352][914]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.12.26-17.35.10:445][914]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.12.26-17.35.10:445][914]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.12.26-17.35.10:446][914]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.12.26-17.35.10:446][914]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6652
+[2019.12.26-17.35.15:338][914]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.12.26-17.35.15:338][914]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.12.26-17.35.15:338][914]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.12.26-17.35.15:338][914]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.12.26-17.35.15:338][914]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.12.26-17.35.15:338][914]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.12.26-17.35.17:323][914]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.12.26-17.35.17:323][914]MapCheck: New page: Level2 - Dec 26, 2019, 7:35:17 PM
+[2019.12.26-17.35.17:406][914]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2019.12.26-17.35.17:543][914]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 219.704ms to complete.
+[2019.12.26-17.35.17:566][914]LogEditorBuildUtils: Build time 0:08
+[2019.12.26-17.35.17:670][915]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer trunk, compiling. 
+[2019.12.26-17.35.17:684][915]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer trunk, compiling. 
+[2019.12.26-17.35.17:764][916]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer leaves, compiling. 
+[2019.12.26-17.35.17:778][916]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer leaves, compiling. 
+[2019.12.26-17.37.23:551][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.12.26-17.37.49:408][729]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2019.12.26-17.37.52:225][784]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2019.12.26-17.38.38:306][208]Cmd: DELETE
+[2019.12.26-17.38.38:306][208]Cmd: ACTOR DELETE
+[2019.12.26-17.38.43:532][208]LogEditorActor: Deleted Actor: DirectionalLight
+[2019.12.26-17.38.43:577][208]LogEditorActor: Deleted 1 Actors (5.270 secs)
+[2019.12.26-17.39.44:635][185]Cmd: TRANSACTION UNDO
+[2019.12.26-17.39.44:635][185]LogEditorTransaction: Undo Rotate Actors
+[2019.12.26-17.39.46:505][245]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-17.39.52:942][365]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.12.26-17.40.46:624][797]LogSavePackage: Save=420.13ms
+[2019.12.26-17.40.46:624][797]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2CF53AD8B41169B4D999AAAB59666337F.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap'
+[2019.12.26-17.40.46:634][797]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap
+[2019.12.26-17.40.46:926][797]LogSavePackage: Save=250.71ms
+[2019.12.26-17.40.46:926][797]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_BuiltData592CB48C4230E661885755BB548CB4B4.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset'
+[2019.12.26-17.40.46:935][797]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset
+[2019.12.26-17.41.01:376][332]Cmd: DELETE
+[2019.12.26-17.41.01:376][332]Cmd: ACTOR DELETE
+[2019.12.26-17.41.01:377][332]LogEditorActor: Deleted Actor: DirectionalLight
+[2019.12.26-17.41.01:415][332]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.12.26-17.41.14:781][751]LogStaticLightingSystem:Warning: Failed to build lighting!!! Lighting build canceled.
+[2019.12.26-17.41.15:571][751]Job has failed! Job is closed while Tasks are still RUNNING
+[2019.12.26-17.41.15:572][751]DumpUnbuiltLightIteractions
+[2019.12.26-17.41.15:572][751]Lights with unbuilt interactions: 0
+[2019.12.26-17.41.15:572][751]
+[2019.12.26-17.41.15:572][751]Primitives with unbuilt interactions: 0
+[2019.12.26-17.41.15:799][752]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.12.26-17.41.15:799][752]MapCheck: New page: Level2 - Dec 26, 2019, 7:41:15 PM
+[2019.12.26-17.41.15:973][752]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.055ms to complete.
+[2019.12.26-17.41.19:676][873]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-17.41.23:405][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-17.41.23:847][873]PIE: New page: PIE session: Level2 (Dec 26, 2019, 7:41:23 PM)
+[2019.12.26-17.41.23:859][873]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-17.41.23:937][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078128s)
+[2019.12.26-17.41.23:948][873]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-17.41.23:949][873]LogPlayLevel: PIE: World Init took: (0.011462s)
+[2019.12.26-17.41.23:962][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.103085s)
+[2019.12.26-17.41.24:056][873]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-17.41.24:279][873]LogInit: FAudioDevice initialized.
+[2019.12.26-17.41.24:399][873]LogLoad: Game class is 'GameModeBase'
+[2019.12.26-17.41.24:550][873]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.12.26-18.41.24
+[2019.12.26-17.41.24:607][873]LogWorld: Bringing up level for play took: 0.061111
+[2019.12.26-17.41.25:073][873]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 11 classes and 0 folders.
+[2019.12.26-17.41.25:210][873]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 2.572
+[2019.12.26-17.41.38:194][400]Cmd: SELECT NONE
+[2019.12.26-17.42.05:729][303]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-17.42.05:757][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-17.42.05:758][303]PIE: New page: PIE session: Level2 (Dec 26, 2019, 7:42:05 PM)
+[2019.12.26-17.42.05:758][303]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-17.42.05:780][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021638s)
+[2019.12.26-17.42.05:780][303]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-17.42.05:781][303]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2019.12.26-17.42.05:781][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.023044s)
+[2019.12.26-17.42.05:832][303]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-17.42.05:858][303]LogInit: FAudioDevice initialized.
+[2019.12.26-17.42.05:896][303]LogLoad: Game class is 'GameModeBase'
+[2019.12.26-17.42.05:901][303]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.12.26-18.42.05
+[2019.12.26-17.42.05:901][303]LogWorld: Bringing up level for play took: 0.004845
+[2019.12.26-17.42.05:903][303]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 -0.731
+[2019.12.26-17.42.52:245][328]LogSavePackage: Save=435.79ms
+[2019.12.26-17.42.52:245][328]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level23F0030804517FAF1D4C3A1B9D8D1EDC7.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap'
+[2019.12.26-17.42.52:255][328]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2.umap
+[2019.12.26-17.42.52:589][328]LogSavePackage: Save=272.41ms
+[2019.12.26-17.42.52:589][328]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Level2_BuiltDataCAC087454E907EDDB4B9CDA0FCA39A03.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset'
+[2019.12.26-17.42.52:594][328]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Level2_BuiltData.uasset
+[2019.12.26-17.43.03:855][509]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.12.26-17.43.04:748][552]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SurGame
+[2019.12.26-17.43.04:748][552]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2019.12.26-17.43.04:748][552]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2019.12.26-17.43.04:748][552]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2019.12.26-17.43.04:798][555]LogTemp: BranchPath = LAPTOP-DM9AJJCC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LAPTOP-DM9AJJCC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2019.12.26-17.43.05:164][577]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.12.26-17.46.53:413][426]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-17.46.53:435][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-17.46.53:435][426]PIE: New page: PIE session: Level2 (Dec 26, 2019, 7:46:53 PM)
+[2019.12.26-17.46.53:435][426]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-17.46.53:455][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019424s)
+[2019.12.26-17.46.53:456][426]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-17.46.53:456][426]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2019.12.26-17.46.53:456][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.021069s)
+[2019.12.26-17.46.53:482][426]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-17.46.53:505][426]LogInit: FAudioDevice initialized.
+[2019.12.26-17.46.53:538][426]LogLoad: Game class is 'GameModeBase'
+[2019.12.26-17.46.53:542][426]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.12.26-18.46.53
+[2019.12.26-17.46.53:542][426]LogWorld: Bringing up level for play took: 0.003219
+[2019.12.26-17.46.53:544][426]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.909
+[2019.12.26-17.48.53:459][252]Cmd: TRANSACTION UNDO
+[2019.12.26-17.48.53:460][252]LogEditorTransaction: Undo Change Key Value
+[2019.12.26-17.48.56:306][340]Cmd: TRANSACTION REDO
+[2019.12.26-17.48.56:306][340]LogEditorTransaction: Redo Change Key Value
+[2019.12.26-17.49.28:621][ 50]LogMetaData: Removing '/Game/PersonajeBase.PersonajeBase:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.12.26-17.49.28:621][ 50]LogMetaData: Removing '/Game/PersonajeBase.SKEL_PersonajeBase_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.12.26-17.49.28:621][ 50]LogMetaData: Removing '/Game/PersonajeBase.PersonajeBase_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.12.26-17.49.28:621][ 50]LogMetaData: Removing '/Game/PersonajeBase.PersonajeBase:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.12.26-17.49.28:621][ 50]LogMetaData: Removing '/Game/PersonajeBase.PersonajeBase:EventGraph.K2Node_Event_1' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.12.26-17.49.28:621][ 50]LogMetaData: Removing '/Game/PersonajeBase.PersonajeBase:EventGraph.K2Node_Event_2' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.12.26-17.49.28:703][ 50]LogSavePackage: Save=33.02ms
+[2019.12.26-17.49.28:703][ 50]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/PersonajeBaseDBABB0F24437E86CA3492E8FAF9BDCCC.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/PersonajeBase.uasset'
+[2019.12.26-17.49.28:712][ 50]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/PersonajeBase.uasset
+[2019.12.26-17.49.40:365][154]LogSlate: Took 0.016496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.26-17.49.41:500][154]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 112 classes and 0 folders.
+[2019.12.26-17.49.44:827][154]LogRenderer: Reallocating scene render targets to support 808x588 NumSamples 1 (Frame:1).
+[2019.12.26-17.50.03:380][277]Cmd: TRANSACTION UNDO
+[2019.12.26-17.50.03:380][277]LogEditorTransaction: Undo Add Variable
+[2019.12.26-17.51.02:645][891]LogSlate: Took 0.011080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.12.26-17.51.12:471][ 31]BlueprintLog: New page: Compile PersonajeBase
+[2019.12.26-17.51.40:527][214]LogSlate: Took 0.008257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.26-17.54.05:188][705]BlueprintLog: New page: Compile PersonajeBase
+[2019.12.26-17.54.06:218][722]LogSavePackage: Save=32.88ms
+[2019.12.26-17.54.06:218][722]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/PersonajeBase5AC8D1F0430596ECDE94F1A8F9A62102.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/PersonajeBase.uasset'
+[2019.12.26-17.54.06:227][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/PersonajeBase.uasset
+[2019.12.26-17.56.15:878][617]LogSavePackage: Save=25.06ms
+[2019.12.26-17.56.15:878][617]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/PersonajeBase173BA4A94D574991C8C0B5AAAE2FFB46.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/PersonajeBase.uasset'
+[2019.12.26-17.56.15:881][617]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/PersonajeBase.uasset
+[2019.12.26-17.56.42:384][ 84]LogTexture:Display: Building textures: Chr_FPS_D (AutoDXT, 2048X2048)
+[2019.12.26-17.56.48:117][ 84]LogMaterial: Missing cached shader map for material Chr_FPS_D_Mat, compiling. 
+[2019.12.26-17.57.42:068][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset" SILENT=true
+[2019.12.26-17.57.42:114][634]LogSavePackage: Save=41.15ms
+[2019.12.26-17.57.42:114][634]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/JugadorC740B9254421297E73822CA18BC85A2F.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset'
+[2019.12.26-17.57.42:121][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset
+[2019.12.26-17.57.42:742][647]BlueprintLog: New page: Compile Jugador
+[2019.12.26-17.58.28:416][856]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-17.58.28:467][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-17.58.28:467][856]PIE: New page: PIE session: Level2 (Dec 26, 2019, 7:58:28 PM)
+[2019.12.26-17.58.28:467][856]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-17.58.28:501][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033028s)
+[2019.12.26-17.58.28:502][856]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-17.58.28:502][856]LogPlayLevel: PIE: World Init took: (0.001740s)
+[2019.12.26-17.58.28:503][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.035254s)
+[2019.12.26-17.58.28:568][856]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-17.58.28:594][856]LogInit: FAudioDevice initialized.
+[2019.12.26-17.58.28:633][856]LogLoad: Game class is 'GameModeBase'
+[2019.12.26-17.58.28:640][856]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.12.26-18.58.28
+[2019.12.26-17.58.28:640][856]LogWorld: Bringing up level for play took: 0.006706
+[2019.12.26-17.58.28:643][856]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.009
+[2019.12.26-17.59.40:991][271]LogTemp: Repeting last play command: Selected Viewport
+[2019.12.26-17.59.41:011][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.26-17.59.41:011][271]PIE: New page: PIE session: Level2 (Dec 26, 2019, 7:59:41 PM)
+[2019.12.26-17.59.41:011][271]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2019.12.26-17.59.41:029][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017901s)
+[2019.12.26-17.59.41:030][271]LogAIModule: Creating AISystem for world Level2
+[2019.12.26-17.59.41:031][271]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2019.12.26-17.59.41:031][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.019232s)
+[2019.12.26-17.59.41:073][271]LogInit: XAudio2 using 'Altavoces (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.26-17.59.41:095][271]LogInit: FAudioDevice initialized.
+[2019.12.26-17.59.41:131][271]LogLoad: Game class is 'GameModeBase'
+[2019.12.26-17.59.41:135][271]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.12.26-18.59.41
+[2019.12.26-17.59.41:136][271]LogWorld: Bringing up level for play took: 0.004160
+[2019.12.26-17.59.41:137][271]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.503
+[2019.12.26-18.00.59:079][360]Cmd: TRANSACTION UNDO
+[2019.12.26-18.00.59:079][360]LogEditorTransaction: Undo Modify Component(s)
+[2019.12.26-18.01.01:114][416]Cmd: TRANSACTION UNDO
+[2019.12.26-18.01.01:114][416]LogEditorTransaction: Undo Modify Component(s)
+[2019.12.26-18.01.04:040][498]Cmd: TRANSACTION REDO
+[2019.12.26-18.01.04:040][498]LogEditorTransaction: Redo Modify Component(s)
+[2019.12.26-18.01.08:540][625]Cmd: TRANSACTION REDO
+[2019.12.26-18.01.08:540][625]LogEditorTransaction: Redo Modify Component(s)
+[2019.12.26-18.02.05:114][ 23]Cmd: CLOSE_SLATE_MAINFRAME
+[2019.12.26-18.02.06:939][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador" FILE="../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset" SILENT=true
+[2019.12.26-18.02.06:984][ 23]LogSavePackage: Save=34.59ms
+[2019.12.26-18.02.06:984][ 23]LogSavePackage: Moving '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/JugadorF2CF679F4511ED5C97BF9A9B1ED4849E.tmp' to '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset'
+[2019.12.26-18.02.06:993][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Jugador.uasset
+[2019.12.26-18.02.07:451][ 24]Cmd: QUIT_EDITOR
+[2019.12.26-18.02.10:335][ 24]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.12.26-18.02.11:742][ 24]LogExit: Preparing to exit.
+[2019.12.26-18.02.13:361][ 24]LogDirectoryWatcher: A directory notification for 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/' was aborted.
+[2019.12.26-18.02.13:678][ 24]LogExit: Editor shut down
+[2019.12.26-18.02.13:731][ 24]LogExit: Transaction tracking system shut down
+[2019.12.26-18.02.16:591][ 24]LogObj: Freed 0b from 0 cluster array pools.
+[2019.12.26-18.02.16:592][ 24]LogExit: Object subsystem successfully closed.
+[2019.12.26-18.02.16:873][ 24]LogD3D11RHI: Shutdown
+[2019.12.26-18.02.16:873][ 24]LogD3D11RHI: CleanupD3DDevice
+[2019.12.26-18.02.17:364][ 24]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.12.26-18.02.18:337][ 24]LogModuleManager: Shutting down and abandoning module LauncherServices (538)
+[2019.12.26-18.02.18:337][ 24]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2019.12.26-18.02.18:337][ 24]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2019.12.26-18.02.18:388][ 24]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2019.12.26-18.02.18:388][ 24]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2019.12.26-18.02.18:388][ 24]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2019.12.26-18.02.18:388][ 24]LogModuleManager: Shutting down and abandoning module NewLevelDialog (526)
+[2019.12.26-18.02.18:389][ 24]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2019.12.26-18.02.18:389][ 24]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2019.12.26-18.02.18:389][ 24]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2019.12.26-18.02.18:389][ 24]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2019.12.26-18.02.18:454][ 24]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2019.12.26-18.02.18:466][ 24]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2019.12.26-18.02.18:467][ 24]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2019.12.26-18.02.18:467][ 24]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2019.12.26-18.02.18:467][ 24]LogDirectoryWatcher: A directory notification for 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Collections/' was aborted.
+[2019.12.26-18.02.18:467][ 24]LogDirectoryWatcher: A directory notification for 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/Developers/Enrique/Collections/' was aborted.
+[2019.12.26-18.02.18:467][ 24]LogDirectoryWatcher: A directory notification for 'C:/Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Saved/Collections/' was aborted.
+[2019.12.26-18.02.18:467][ 24]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2019.12.26-18.02.18:484][ 24]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2019.12.26-18.02.18:484][ 24]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2019.12.26-18.02.18:510][ 24]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2019.12.26-18.02.18:573][ 24]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2019.12.26-18.02.18:573][ 24]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2019.12.26-18.02.18:573][ 24]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2019.12.26-18.02.18:573][ 24]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2019.12.26-18.02.18:573][ 24]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2019.12.26-18.02.18:573][ 24]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2019.12.26-18.02.18:573][ 24]LogModuleManager: Shutting down and abandoning module Media (471)
+[2019.12.26-18.02.18:573][ 24]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2019.12.26-18.02.18:574][ 24]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2019.12.26-18.02.18:574][ 24]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2019.12.26-18.02.18:588][ 24]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2019.12.26-18.02.18:598][ 24]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2019.12.26-18.02.18:598][ 24]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2019.12.26-18.02.18:598][ 24]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2019.12.26-18.02.18:598][ 24]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2019.12.26-18.02.18:623][ 24]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2019.12.26-18.02.18:676][ 24]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2019.12.26-18.02.18:693][ 24]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2019.12.26-18.02.18:762][ 24]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2019.12.26-18.02.19:022][ 24]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2019.12.26-18.02.19:022][ 24]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2019.12.26-18.02.19:022][ 24]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2019.12.26-18.02.19:022][ 24]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2019.12.26-18.02.19:022][ 24]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2019.12.26-18.02.19:216][ 24]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2019.12.26-18.02.19:216][ 24]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2019.12.26-18.02.19:217][ 24]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2019.12.26-18.02.19:217][ 24]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2019.12.26-18.02.19:226][ 24]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2019.12.26-18.02.19:226][ 24]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2019.12.26-18.02.19:226][ 24]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2019.12.26-18.02.19:247][ 24]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2019.12.26-18.02.19:314][ 24]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2019.12.26-18.02.19:315][ 24]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2019.12.26-18.02.19:315][ 24]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2019.12.26-18.02.19:327][ 24]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2019.12.26-18.02.19:327][ 24]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2019.12.26-18.02.19:327][ 24]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2019.12.26-18.02.19:327][ 24]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2019.12.26-18.02.19:327][ 24]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2019.12.26-18.02.19:327][ 24]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2019.12.26-18.02.19:328][ 24]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2019.12.26-18.02.19:328][ 24]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2019.12.26-18.02.19:328][ 24]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2019.12.26-18.02.19:328][ 24]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2019.12.26-18.02.19:354][ 24]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2019.12.26-18.02.19:354][ 24]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2019.12.26-18.02.19:362][ 24]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2019.12.26-18.02.19:428][ 24]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2019.12.26-18.02.19:434][ 24]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2019.12.26-18.02.19:463][ 24]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2019.12.26-18.02.19:489][ 24]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2019.12.26-18.02.19:489][ 24]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2019.12.26-18.02.19:505][ 24]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2019.12.26-18.02.19:505][ 24]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2019.12.26-18.02.19:560][ 24]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2019.12.26-18.02.19:560][ 24]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2019.12.26-18.02.19:560][ 24]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2019.12.26-18.02.19:600][ 24]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2019.12.26-18.02.19:602][ 24]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2019.12.26-18.02.19:602][ 24]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2019.12.26-18.02.19:602][ 24]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2019.12.26-18.02.19:675][ 24]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2019.12.26-18.02.19:705][ 24]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2019.12.26-18.02.19:706][ 24]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2019.12.26-18.02.19:706][ 24]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2019.12.26-18.02.19:706][ 24]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2019.12.26-18.02.19:706][ 24]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2019.12.26-18.02.19:706][ 24]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2019.12.26-18.02.19:868][ 24]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2019.12.26-18.02.19:868][ 24]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2019.12.26-18.02.19:868][ 24]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2019.12.26-18.02.19:868][ 24]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2019.12.26-18.02.19:868][ 24]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2019.12.26-18.02.19:868][ 24]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2019.12.26-18.02.19:868][ 24]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2019.12.26-18.02.19:868][ 24]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2019.12.26-18.02.19:893][ 24]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2019.12.26-18.02.20:113][ 24]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2019.12.26-18.02.20:157][ 24]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2019.12.26-18.02.20:272][ 24]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2019.12.26-18.02.20:272][ 24]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2019.12.26-18.02.20:272][ 24]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2019.12.26-18.02.20:272][ 24]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2019.12.26-18.02.20:272][ 24]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2019.12.26-18.02.20:272][ 24]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2019.12.26-18.02.20:272][ 24]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2019.12.26-18.02.20:272][ 24]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2019.12.26-18.02.20:272][ 24]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2019.12.26-18.02.20:357][ 24]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2019.12.26-18.02.20:381][ 24]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2019.12.26-18.02.20:381][ 24]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2019.12.26-18.02.20:405][ 24]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2019.12.26-18.02.20:405][ 24]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2019.12.26-18.02.20:437][ 24]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2019.12.26-18.02.20:478][ 24]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2019.12.26-18.02.20:478][ 24]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2019.12.26-18.02.20:496][ 24]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2019.12.26-18.02.20:496][ 24]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2019.12.26-18.02.20:496][ 24]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2019.12.26-18.02.20:496][ 24]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2019.12.26-18.02.20:521][ 24]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2019.12.26-18.02.20:550][ 24]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.12.26-18.02.20:581][ 24]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.12.26-18.02.20:590][ 24]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2019.12.26-18.02.20:590][ 24]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2019.12.26-18.02.20:634][ 24]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2019.12.26-18.02.20:634][ 24]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2019.12.26-18.02.20:634][ 24]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2019.12.26-18.02.20:634][ 24]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2019.12.26-18.02.20:634][ 24]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2019.12.26-18.02.20:634][ 24]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2019.12.26-18.02.20:735][ 24]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2019.12.26-18.02.20:835][ 24]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2019.12.26-18.02.20:893][ 24]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2019.12.26-18.02.20:893][ 24]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2019.12.26-18.02.20:893][ 24]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2019.12.26-18.02.20:916][ 24]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2019.12.26-18.02.20:916][ 24]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2019.12.26-18.02.20:919][ 24]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2019.12.26-18.02.20:919][ 24]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2019.12.26-18.02.20:931][ 24]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2019.12.26-18.02.20:931][ 24]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2019.12.26-18.02.20:933][ 24]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2019.12.26-18.02.20:947][ 24]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2019.12.26-18.02.21:002][ 24]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2019.12.26-18.02.21:002][ 24]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2019.12.26-18.02.21:002][ 24]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2019.12.26-18.02.21:019][ 24]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2019.12.26-18.02.21:047][ 24]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2019.12.26-18.02.21:048][ 24]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2019.12.26-18.02.21:195][ 24]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2019.12.26-18.02.21:196][ 24]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2019.12.26-18.02.21:250][ 24]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2019.12.26-18.02.21:277][ 24]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2019.12.26-18.02.21:409][ 24]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2019.12.26-18.02.21:480][ 24]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2019.12.26-18.02.21:529][ 24]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2019.12.26-18.02.21:530][ 24]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2019.12.26-18.02.21:547][ 24]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2019.12.26-18.02.21:738][ 24]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2019.12.26-18.02.21:738][ 24]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2019.12.26-18.02.21:773][ 24]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2019.12.26-18.02.21:774][ 24]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2019.12.26-18.02.21:774][ 24]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2019.12.26-18.02.21:774][ 24]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2019.12.26-18.02.21:774][ 24]LogModuleManager: Shutting down and abandoning module Core (164)
+[2019.12.26-18.02.21:774][ 24]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2019.12.26-18.02.22:058][ 24]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.12.26-18.02.22:058][ 24]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Enrique/OneDrive - Universidad de Oviedo/4º Informatica/Videojuegos/Unreal Projects/SurGame/Content/' was aborted.
+[2019.12.26-18.02.22:058][ 24]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.12.26-18.02.22:058][ 24]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2019.12.26-18.02.22:066][ 24]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2019.12.26-18.02.22:072][ 24]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2019.12.26-18.02.22:072][ 24]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2019.12.26-18.02.22:072][ 24]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2019.12.26-18.02.22:072][ 24]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2019.12.26-18.02.22:098][ 24]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2019.12.26-18.02.22:098][ 24]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2019.12.26-18.02.22:099][ 24]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2019.12.26-18.02.22:099][ 24]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2019.12.26-18.02.22:159][ 24]LogDerivedDataCache: Shutdown
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2019.12.26-18.02.22:159][ 24]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2019.12.26-18.02.22:172][ 24]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2019.12.26-18.02.22:173][ 24]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2019.12.26-18.02.22:199][ 24]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2019.12.26-18.02.22:199][ 24]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2019.12.26-18.02.22:231][ 24]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2019.12.26-18.02.22:232][ 24]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.12.26-18.02.22:232][ 24]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.12.26-18.02.22:232][ 24]LogOnline:Display: Unloading online subsystem: NULL
+[2019.12.26-18.02.22:304][ 24]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.12.26-18.02.22:371][ 24]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.12.26-18.02.22:371][ 24]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.12.26-18.02.22:385][ 24]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B14064DDD-4BE9-20DD-BBA4-6CA4ECAE40A0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=2648461744d9e4173786d9bbb19d95a5%7C35863c99d82a4ed4b51773c0fa1f7d15%7Cc578b68e-8e52-4769-b554-e87fa8641c17&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.12.26-18.02.22:417][ 24]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.12.26-18.02.22:434][ 24]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2019.12.26-18.02.22:434][ 24]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2019.12.26-18.02.22:434][ 24]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2019.12.26-18.02.22:434][ 24]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2019.12.26-18.02.22:495][ 24]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2019.12.26-18.02.22:495][ 24]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2019.12.26-18.02.22:495][ 24]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2019.12.26-18.02.22:495][ 24]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2019.12.26-18.02.22:502][ 24]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2019.12.26-18.02.22:524][ 24]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2019.12.26-18.02.22:524][ 24]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2019.12.26-18.02.22:530][ 24]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2019.12.26-18.02.22:530][ 24]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2019.12.26-18.02.22:530][ 24]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2019.12.26-18.02.22:530][ 24]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2019.12.26-18.02.22:530][ 24]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.12.26-18.02.22:530][ 24]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.12.26-18.02.22:530][ 24]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.12.26-18.02.22:547][ 24]LogExit: Exiting.
+[2019.12.26-18.02.22:570][ 24]Log file closed, 12/26/19 19:02:22
